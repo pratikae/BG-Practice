@@ -7,10 +7,15 @@ const state = {
   playbackTimer: null,
   currentAudio: null,
   playing: false,
+  speed: 1,
 };
 
 const chapterSelect = document.getElementById("chapterSelect");
 const modeSelect = document.getElementById("modeSelect");
+const speedSlider = document.getElementById("speedSlider");
+const speedValue = document.getElementById("speedValue");
+const speedDownBtn = document.getElementById("speedDownBtn");
+const speedUpBtn = document.getElementById("speedUpBtn");
 const playBtn = document.getElementById("playBtn");
 const pauseBtn = document.getElementById("pauseBtn");
 const stopBtn = document.getElementById("stopBtn");
@@ -42,6 +47,23 @@ function updateQueueLabel() {
   const mode = modeSelect.value;
   const selectedCount = buildQueue().length;
   queueLabel.textContent = `${selectedCount} ${mode === "all" ? "verses" : `${mode} verses`} queued`;
+}
+
+function formatSpeed(value) {
+  return `${value.toFixed(2).replace(/\.00$/, "")}x`;
+}
+
+function updateSpeedDisplay() {
+  speedSlider.value = state.speed;
+  speedValue.textContent = formatSpeed(state.speed);
+}
+
+function setSpeed(value) {
+  const rounded = Math.round(value * 4) / 4;
+  const clamped = Math.min(10, Math.max(0.25, rounded));
+  state.speed = clamped;
+  updateSpeedDisplay();
+  setStatus(`Playback speed set to ${formatSpeed(state.speed)}.`);
 }
 
 function escapeHtml(value) {
@@ -143,10 +165,11 @@ function playNextVerse() {
 
   const startPlayback = () => {
     audio.play().then(() => {
+      audio.playbackRate = state.speed;
       updateCurrentVerse(verse.number);
       const verseDuration = state.verseDurations.get(verse.file) || audio.duration || 0;
-      const totalDelayMs = (verseDuration + gapDuration) * 1000;
-      setStatus(`Playing verse ${verse.number} with a ${gapDuration.toFixed(1)}s pause after it.`);
+      const totalDelayMs = ((verseDuration + gapDuration) / state.speed) * 1000;
+      setStatus(`Playing verse ${verse.number} at ${formatSpeed(state.speed)} with a ${gapDuration.toFixed(1)}s pause after it.`);
       state.playbackTimer = window.setTimeout(() => {
         state.currentIndex += 1;
         playNextVerse();
@@ -211,6 +234,7 @@ async function init() {
 
   chapterSelect.value = state.chapters[0]?.id || "";
   modeSelect.value = "odd";
+  updateSpeedDisplay();
 
   chapterSelect.addEventListener("change", (event) => {
     loadChapter(event.target.value);
@@ -218,6 +242,18 @@ async function init() {
 
   modeSelect.addEventListener("change", () => {
     updateQueueLabel();
+  });
+
+  speedSlider.addEventListener("input", (event) => {
+    setSpeed(Number(event.target.value));
+  });
+
+  speedDownBtn.addEventListener("click", () => {
+    setSpeed(state.speed - 0.25);
+  });
+
+  speedUpBtn.addEventListener("click", () => {
+    setSpeed(state.speed + 0.25);
   });
 
   playBtn.addEventListener("click", () => {

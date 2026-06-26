@@ -145,6 +145,23 @@ select {
   flex-wrap: wrap;
 }
 
+.speed-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.speed-btn {
+  min-width: 42px;
+  padding: 10px 12px;
+}
+
+.speed-value {
+  font-weight: 700;
+  color: var(--accent-3);
+  margin-top: 6px;
+}
+
 button {
   background: linear-gradient(135deg, var(--accent), #ff9a3c);
   color: white;

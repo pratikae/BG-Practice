@@ -1,11 +1,12 @@
-# ProTify Shuffle · BG Practice
+# Bhagavad Gita Practice
 
-A lightweight web app for practicing Bhagavad Gita verses by playing either odd or even shlokas, while inserting a pause equal to the duration of the skipped verse between selections.
+A lightweight static web app for practicing Bhagavad Gita verses by playing either odd or even shlokas, while inserting a pause equal to the duration of the skipped verse between selections.
 
 ## Features
 - Chapter selector for future expansion
 - Playback modes for odd, even, or all verses
 - Gap timing based on the skipped verse's duration
+- Adjustable playback speed from 0.25x to 10x in 0.25x steps
 - Clean, accessible UI with a warm orange, green, and blue palette
 
 ## Local development
@@ -26,24 +27,8 @@ Then open http://localhost:8000.
 6. Your site will be published at `https://<your-username>.github.io/<repo-name>/`.
 7. The landing page is at the root, and the practice app is at `/bg-practice.html`.
 
-## Custom domain (Namecheap)
-The safest option is to use a subdomain such as `bg.protify-shuffle.com` so you do not interfere with your existing root domain usage. Point that subdomain to GitHub Pages using a CNAME record.
+## Custom domain
+If you want to use a custom domain, point a subdomain such as `bg.yourdomain.com` to GitHub Pages using a CNAME record.
 
-## AWS Lightsail deployment
-If you prefer a custom server instead of GitHub Pages:
-1. Launch an Ubuntu Lightsail instance.
-2. Open ports 80 and 443.
-3. Install Nginx.
-4. Upload the project files into `/var/www/bg-practice`.
-5. Configure Nginx to serve that directory.
-
-A ready-to-use deployment script is included at `deploy.sh`.
-
-## Deployment notes for the Namecheap domain
-- Use a subdomain such as `bg.protify-shuffle.com` rather than the root domain if the root is already in use.
-- In GitHub Pages, add the custom domain under Settings → Pages.
-- In Namecheap, add a CNAME record:
-  - Host: `bg`
-  - Value: `<your-username>.github.io`
-
-If you want the root domain to act as a landing page for both apps, deploy this repository to a subdomain and keep your existing ProTify Shuffle app at the main domain.
+## Static hosting notes
+This app is designed to be fully static, so it can be hosted on GitHub Pages or any other simple static host without a backend.

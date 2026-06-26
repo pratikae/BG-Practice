@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ProTify Shuffle · BG Practice</title>
+    <title>Bhagavad Gita Practice</title>
     <meta
       name="description"
       content="Practice Bhagavad Gita shlokas by playing odd or even verses with the exact pause length of the skipped verse in between."
@@ -14,15 +14,10 @@
     <div class="page-shell">
       <header class="hero">
         <div class="hero-badge">Bhagavad Gita Practice</div>
-        <h1>ProTify Shuffle · BG Practice</h1>
+        <h1>Bhagavad Gita Practice</h1>
         <p>
           Play only odd or even shlokas with the correct pause length of the skipped verse in between.
         </p>
-        <div class="hero-actions">
-          <a class="ghost-link" href="https://www.protify-shuffle.com" target="_blank" rel="noopener">
-            Open ProTify Shuffle
-          </a>
-        </div>
       </header>
 
       <main class="app-card">
@@ -39,6 +34,16 @@
               <option value="even">Even verses only</option>
               <option value="all">All verses</option>
             </select>
+          </div>
+
+          <div class="field">
+            <label>Speed</label>
+            <div class="speed-control">
+              <button id="speedDownBtn" class="secondary speed-btn" type="button">−</button>
+              <input id="speedSlider" type="range" min="0.25" max="10" step="0.25" value="1" />
+              <button id="speedUpBtn" class="secondary speed-btn" type="button">+</button>
+            </div>
+            <div class="speed-value" id="speedValue">1x</div>
           </div>
 
           <div class="button-row">

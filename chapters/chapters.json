@@ -59,7 +59,7 @@
       "id": "chapter-2",
       "title": "Chapter 2",
       "verses": [
-        { "number": 0, "file": "Chapter 2/Ch 2 Shloka 0.mp3" },
+        { "number": 0, "type": "intro", "file": "Chapter 2/Ch 2 Shloka 0.mp3" },
         { "number": 1, "file": "Chapter 2/Ch 2 Shloka 1.mp3" },
         { "number": 2, "file": "Chapter 2/Ch 2 Shloka 2.mp3" },
         { "number": 3, "file": "Chapter 2/Ch 2 Shloka 3.mp3" },
@@ -131,14 +131,15 @@
         { "number": 69, "file": "Chapter 2/Ch 2 Shloka 69.mp3" },
         { "number": 70, "file": "Chapter 2/Ch 2 Shloka 70.mp3" },
         { "number": 71, "file": "Chapter 2/Ch 2 Shloka 71.mp3" },
-        { "number": 72, "file": "Chapter 2/Ch 2 Shloka 72.mp3" }
+        { "number": 72, "file": "Chapter 2/Ch 2 Shloka 72.mp3" },
+        { "number": 73, "type": "colophon", "file": "Chapter 2/Ch 2 Colophon.mp3" }
       ]
     },
     {
       "id": "chapter-3",
       "title": "Chapter 3",
       "verses": [
-        { "number": 0, "file": "Chapter 3/Ch 3 Shloka 0.mp3" },
+        { "number": 0, "type": "intro", "file": "Chapter 3/Ch 3 Shloka 0.mp3" },
         { "number": 1, "file": "Chapter 3/Ch 3 Shloka 1.mp3" },
         { "number": 2, "file": "Chapter 3/Ch 3 Shloka 2.mp3" },
         { "number": 3, "file": "Chapter 3/Ch 3 Shloka 3.mp3" },
@@ -181,7 +182,8 @@
         { "number": 40, "file": "Chapter 3/Ch 3 Shloka 40.mp3" },
         { "number": 41, "file": "Chapter 3/Ch 3 Shloka 41.mp3" },
         { "number": 42, "file": "Chapter 3/Ch 3 Shloka 42.mp3" },
-        { "number": 43, "file": "Chapter 3/Ch 3 Shloka 43.mp3" }
+        { "number": 43, "file": "Chapter 3/Ch 3 Shloka 43.mp3" },
+        { "number": 44, "type": "colophon", "file": "Chapter 3/Ch 3 Colophon.mp3" }
       ]
     }
   ]

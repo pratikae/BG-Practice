@@ -161,9 +161,9 @@ verse_starts = [
     # ... all verses ...
     (47, 785.68),
 ]
-colophon_start = 803.44   # end of last verse
+colophon_start = 804.0   # use the silence boundary BEFORE "om tatsaditi", not the Whisper word timestamp
 
-src = "N_Ch N Complete.mp3"
+src = "raw_data/N_Ch N Complete.mp3"
 out_dir = "Chapter N"
 os.makedirs(out_dir, exist_ok=True)
 
@@ -173,12 +173,32 @@ for i, (vnum, vstart) in enumerate(verse_starts):
     subprocess.run([
         "ffmpeg", "-y", "-i", src,
         "-ss", str(vstart), "-to", str(vend),
-        "-c", "copy", out
+        "-acodec", "libmp3lame", "-q:a", "2", out   # transcode — do NOT use -c copy (causes frame-end glitches)
     ], check=True)
     print(f"Verse {vnum}: {vstart:.2f}s–{vend:.2f}s → {out}")
+
+# Colophon: from colophon_start to end of file
+subprocess.run([
+    "ffmpeg", "-y", "-i", src,
+    "-ss", str(colophon_start),
+    "-acodec", "libmp3lame", "-q:a", "2",
+    f"{out_dir}/Ch N Colophon.mp3"
+], check=True)
+print(f"Colophon: {colophon_start:.2f}s–end → {out_dir}/Ch N Colophon.mp3")
 ```
 
 Expected verse durations: 14–22 seconds each. Flag any verse shorter than 10s or longer than 30s for manual review.
+
+**Finding the clean colophon cut point:**
+
+The Whisper timestamp for "om tatsaditi" often lands inside the preceding silence. Use `ffmpeg silencedetect` to find the silence boundary instead:
+
+```bash
+ffmpeg -ss <whisper_tatsad_time - 5> -t 10 -i "raw_data/N_Ch N Complete.mp3" \
+  -af "silencedetect=noise=-35dB:d=0.3" -f null - 2>&1 | grep silence
+```
+
+Pick the `silence_start` immediately before the "om" word as your `colophon_start`. This lands the cut cleanly inside the gap rather than mid-silence.
 
 ---
 
@@ -186,43 +206,52 @@ Expected verse durations: 14–22 seconds each. Flag any verse shorter than 10s 
 
 ### Update `chapters/chapters.json`
 
-Add a new chapter object. Verse 0 must be first in the `verses` array:
+Add a new chapter object. Verse 0 must be **first** with `"type": "intro"`, and the colophon must be **last** with `"type": "colophon"`. Regular verses go in between.
 
 ```json
 {
   "id": "chapter-N",
   "title": "Chapter N",
   "verses": [
-    { "number": 0, "file": "Chapter N/Ch N Shloka 0.mp3" },
+    { "number": 0, "type": "intro", "file": "Chapter N/Ch N Shloka 0.mp3" },
     { "number": 1, "file": "Chapter N/Ch N Shloka 1.mp3" },
     { "number": 2, "file": "Chapter N/Ch N Shloka 2.mp3" },
     ...
+    { "number": M, "file": "Chapter N/Ch N Shloka M.mp3" },
+    { "number": M+1, "type": "colophon", "file": "Chapter N/Ch N Colophon.mp3" }
   ]
 }
 ```
 
-The app (`app.js`) automatically handles verse 0 for all chapters:
-- Verse 0 always plays first regardless of odd/even mode.
-- No gap is inserted after verse 0 (it flows directly into verse 1).
-- The verse list card and status message show "intro" for verse 0.
+The colophon verse number must be exactly `M + 1` (one past the last regular verse). The app uses this numbering to determine gap durations:
+- In odd mode, verse M (if M is odd) → colophon: `M+1 === M+1`, so no gap.
+- In even mode, verse M-1 (if M-1 is even) → colophon: `(M-1)+1 = M ≠ M+1`, so a gap of verse M's duration plays.
+
+The app (`app.js`) automatically handles both special verses for all chapters:
+- Intro (`type: "intro"`) always plays first regardless of odd/even mode.
+- Colophon (`type: "colophon"`) always plays last regardless of odd/even mode.
+- Gaps before the colophon follow the same odd/even logic as regular verses.
+- Status shows "intro" and "closing prayer" respectively.
 
 ### File and Directory Naming Convention
 
 | Asset | Path |
 |---|---|
-| Complete audio | `N_Ch N Complete.mp3` (in project root) |
+| Complete audio | `raw_data/N_Ch N Complete.mp3` |
 | Verse files | `Chapter N/Ch N Shloka 0.mp3` … `Ch N Shloka M.mp3` |
+| Colophon file | `Chapter N/Ch N Colophon.mp3` |
 | chapters.json | `chapters/chapters.json` (shared across all chapters) |
 | PDF | `0N_Chapter_English.pdf` |
-| Verse text | `chapterN-verse-splits-columned.md` |
+| Verse text | `Chapter N/chapterN-verse-splits-columned.md` |
 
 ### Quality Checks
 
-- [ ] `chapters.json` has the new chapter with verse 0 first
+- [ ] `chapters.json` has the new chapter with verse 0 (`type: "intro"`) first
+- [ ] Colophon (`type: "colophon"`, number = M+1) is the last entry
 - [ ] All verse files exist in `Chapter N/` and are playable
 - [ ] Verse 0 plays the title block (ॐ śrī … chapter name … yoga name)
 - [ ] Verse 1 starts cleanly with the first verse content (not the title block)
-- [ ] Last verse ends before the closing colophon
+- [ ] Colophon plays "om tatsaditi…" and does not include any verse content
 - [ ] Spot-check several verses mid-chapter by clicking them in the playlist
-- [ ] Odd mode: plays intro + verses 1, 3, 5, … with gap for even verses
-- [ ] Even mode: plays intro + verses 2, 4, 6, … with gap for odd verses
+- [ ] Odd mode: plays intro → odd verses with even gaps → colophon
+- [ ] Even mode: plays intro → even verses with odd gaps → colophon (gap for last odd verse before colophon if applicable)

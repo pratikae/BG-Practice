@@ -40,8 +40,13 @@ function updateTimeline(percent) {
 function updateCurrentVerse(number) {
   if (number == null) {
     currentVerseLabel.textContent = "No verse playing";
-  } else if (number === 0) {
+    return;
+  }
+  const verse = state.activeChapter?.verses.find((v) => v.number === number);
+  if (number === 0 || verse?.type === "intro") {
     currentVerseLabel.textContent = "Now playing intro";
+  } else if (verse?.type === "colophon") {
+    currentVerseLabel.textContent = "Now playing closing prayer";
   } else {
     currentVerseLabel.textContent = `Now playing verse ${number}`;
   }
@@ -122,19 +127,26 @@ function renderVerseList() {
 function buildQueue() {
   if (!state.activeChapter) return [];
 
-  const verse0 = state.activeChapter.verses.find((v) => v.number === 0);
+  const intro = state.activeChapter.verses.find((v) => v.type === "intro" || v.number === 0);
+  const colophon = state.activeChapter.verses.find((v) => v.type === "colophon");
+  const regular = state.activeChapter.verses.filter(
+    (v) => v.type !== "intro" && v.type !== "colophon" && v.number !== 0
+  );
+
   const mode = modeSelect.value;
   let verses;
-
   if (mode === "odd") {
-    verses = state.activeChapter.verses.filter((verse) => verse.number % 2 === 1);
+    verses = regular.filter((v) => v.number % 2 === 1);
   } else if (mode === "even") {
-    verses = state.activeChapter.verses.filter((verse) => verse.number % 2 === 0);
+    verses = regular.filter((v) => v.number % 2 === 0);
   } else {
-    verses = state.activeChapter.verses.filter((verse) => verse.number !== 0);
+    verses = regular;
   }
 
-  return verse0 ? [verse0, ...verses] : verses;
+  const queue = intro ? [intro] : [];
+  queue.push(...verses);
+  if (colophon) queue.push(colophon);
+  return queue;
 }
 
 function getGapDurationForIndex(queue, index) {
@@ -143,10 +155,17 @@ function getGapDurationForIndex(queue, index) {
   const currentVerse = queue[index];
   const followingVerse = queue[index + 1];
   if (!currentVerse || !followingVerse) return 0;
-  if (currentVerse.number === 0) return 0;
+
+  // No gap before the colophon
+  if (followingVerse.type === "colophon") return 0;
+
+  // No gap if the next verse in the queue immediately follows in sequence
+  if (followingVerse.number === currentVerse.number + 1) return 0;
 
   const skippedVerseNumber = currentVerse.number + 1;
-  const skippedVerse = state.activeChapter.verses.find((verse) => verse.number === skippedVerseNumber);
+  const skippedVerse = state.activeChapter.verses.find(
+    (v) => v.number === skippedVerseNumber && v.type !== "colophon"
+  );
   if (!skippedVerse) return 0;
 
   return state.verseDurations.get(skippedVerse.file) || 0;
@@ -204,7 +223,9 @@ function jumpToVerse(verseNumber) {
   state.queue = queue;
   state.currentIndex = targetIndex;
   state.playing = true;
-  setStatus(`Jumped to ${verseNumber === 0 ? "intro" : `verse ${verseNumber}`}.`);
+  const jumpedVerse = queue[targetIndex];
+  const jumpLabel = jumpedVerse.type === "colophon" ? "closing prayer" : verseNumber === 0 ? "intro" : `verse ${verseNumber}`;
+  setStatus(`Jumped to ${jumpLabel}.`);
   playNextVerse();
 }
 
@@ -231,7 +252,7 @@ function playNextVerse() {
     updateCurrentVerse(verse.number);
     const verseDuration = state.verseDurations.get(verse.file) || sharedAudio.duration || 0;
     const totalDelayMs = ((verseDuration + gapDuration) / state.speed) * 1000;
-    const verseLabel = verse.number === 0 ? "intro" : `verse ${verse.number}`;
+    const verseLabel = verse.type === "colophon" ? "closing prayer" : verse.number === 0 ? "intro" : `verse ${verse.number}`;
     setStatus(`Playing ${verseLabel} at ${formatSpeed(state.speed)} with a ${(gapDuration / state.speed).toFixed(1)}s pause after it.`);
 
     if (gapDuration > 0) {

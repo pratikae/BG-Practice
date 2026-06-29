@@ -226,6 +226,7 @@ button.secondary {
   border-radius: 16px;
   padding: 12px;
   background: var(--panel);
+  cursor: pointer;
 }
 
 .verse-card strong {

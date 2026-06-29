@@ -4,6 +4,7 @@
       "id": "chapter-1",
       "title": "Chapter 1",
       "verses": [
+        { "number": 0, "file": "Chapter 1/Ch 1 Shloka 0.mp3" },
         { "number": 1, "file": "Chapter 1/Ch 1 Shloka 1.mp3" },
         { "number": 2, "file": "Chapter 1/Ch 1 Shloka 2.mp3" },
         { "number": 3, "file": "Chapter 1/Ch 1 Shloka 3.mp3" },
@@ -24,7 +25,7 @@
         { "number": 18, "file": "Chapter 1/Ch 1 Shloka 18.mp3" },
         { "number": 19, "file": "Chapter 1/Ch 1 Shloka 19.mp3" },
         { "number": 20, "file": "Chapter 1/Ch 1 Shloka 20.mp3" },
-        { "number": 21, "file": "Chapter 1/Ch 1 Shloka 21 .mp3" },
+        { "number": 21, "file": "Chapter 1/Ch 1 Shloka 21.mp3" },
         { "number": 22, "file": "Chapter 1/Ch 1 Shloka 22.mp3" },
         { "number": 23, "file": "Chapter 1/Ch 1 Shloka 23.mp3" },
         { "number": 24, "file": "Chapter 1/Ch 1 Shloka 24.mp3" },

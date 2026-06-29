@@ -5,662 +5,565 @@
 ## Verse 0
 
 || Äm Çré Paramätman¹ Namaù ||
-|| Atha Dvitéyº'dhyäyaù ||
-Säìkhya-Yºgaù
+                                           || Atha Dvitéyº'dhyäyaù ||
+                                           Säìkhya-Yºgaù
+
+saïjaya uväca -                                        gurünahatvä hi mahänubhävän
+taà tathä kåpayä''viñöam                                    çr¹yº bhºktuà bhaikñyamapéha lºk¹ |
+      açrupürëäkul¹kñaëam |                            hatvärthakämäàstu gurünihaiva
+viñédantamidaà väkyam                                    bhuïjéya bhºgän rudhirapradigdhän
 
 > page 1 (header, above column split)
 
 ## Verse 1
 
-saïjaya uväca -
-taà tathä kåpayä''viñöam
-      açrupürëäkul¹kñaëam |
-viñédantamidaà väkyam
-      uväca madhusüdanaù ||1||
+na caitadvidmaù katarannº garéyaù
+çré bhagavänuväca -                                      yadvä jay¹ma yadi vä nº jay¹yuù |
+kutastvä kaçmalamidaà                                  yän¹va hatvä na jijéviñämaù
+      viñam¹ samupasthitam |                             t¹'vasthitäù pramukh¹ dhärtaräñöräù ||1||
 
-> page 1 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 2
 
-çré bhagavänuväca -
-kutastvä kaçmalamidaà
-      viñam¹ samupasthitam |
-anäryajuñöamasvargyam
-      akértikaramarjuna ||2||
+påcchämi tväà dharmasammüòhac¹täù |
+klaibyaà mä sma gamaù pärtha                           yacchr¹yaù syänniçcitaà brühi tanm¹
+      naitattvayyupapadyat¹ |                            çiñyast¹'haà çädhi mäà tväà prapannam ||2||
 
-> page 1 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 3
 
-klaibyaà mä sma gamaù pärtha
-      naitattvayyupapadyat¹ |
-kñudraà hådayadaurbalyaà
-      tyaktvºttiñöha parantapa ||3||
+yacchºkamucchºñaëamindriyäëäm |
+arjuna uväca -                                         aväpya bhümävasapatnamåddhaà
+kathaà bhéñmamahaà saìkhy¹                               räjyaà suräëämapi cädhipatyam ||3||
 
-> page 1 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 4
 
-arjuna uväca -
-kathaà bhéñmamahaà saìkhy¹
-     drºëaà ca madhusüdana |
-iñubhiù pratiyºtsyämi
-     püjärhävarisüdana ||4||
+guòäk¹çaù parantapaù |
+                                                       na yºtsya iti gºvindam
+                                                         uktvä tüñëéà babhüva ha ||4||
 
-> page 1 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 5
 
-gurünahatvä hi mahänubhävän
-     çr¹yº bhºktuà bhaikñyamapéha lºk¹ |
-hatvärthakämäàstu gurünihaiva
-     bhuïjéya bhºgän rudhirapradigdhän ||5||
+uväca madhusüdanaù ||5||
 
-> page 1 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 6
 
-na caitadvidmaù katarannº garéyaù
-     yadvä jay¹ma yadi vä nº jay¹yuù |
-yän¹va hatvä na jijéviñämaù
-     t¹'vasthitäù pramukh¹ dhärtaräñöräù ||6||
+anäryajuñöamasvargyam
+                                                       kärpaëyadºñºpahatasvabhävaù
+      akértikaramarjuna ||6||
 
-> page 1 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 7
 
-kärpaëyadºñºpahatasvabhävaù
-     påcchämi tväà dharmasammüòhac¹täù |
-yacchr¹yaù syänniçcitaà brühi tanm¹
-     çiñyast¹'haà çädhi mäà tväà prapannam ||7||
+kñudraà hådayadaurbalyaà
+                                                       na hi prapaçyämi mamäpanudyät
+      tyaktvºttiñöha parantapa ||7||
 
-> page 1 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 8
 
-na hi prapaçyämi mamäpanudyät
-     yacchºkamucchºñaëamindriyäëäm |
-aväpya bhümävasapatnamåddhaà
-     räjyaà suräëämapi cädhipatyam ||8||
+drºëaà ca madhusüdana |
+                                                       saïjaya uväca -
+iñubhiù pratiyºtsyämi
+                                                       ¹vamuktvä håñék¹çaà
+     püjärhävarisüdana ||8||
 
-> page 1 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 9
 
-saïjaya uväca -
-¹vamuktvä håñék¹çaà
-     guòäk¹çaù parantapaù |
-na yºtsya iti gºvindam
-     uktvä tüñëéà babhüva ha ||9||
+tamuväca håñék¹çaù                    näsatº vidyat¹ bhävaù
+  prahasanniva bhärata |                   näbhävº vidyat¹ sataù |
+s¹nayºrubhayºrmadhy¹                  ubhayºrapi dåñöº'ntaù
+  viñédantamidaà vacaù ||9||
 
-> page 1 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 10
 
-tamuväca håñék¹çaù
-  prahasanniva bhärata |
-s¹nayºrubhayºrmadhy¹
-  viñédantamidaà vacaù ||10||
+tvanayºstattvadarçibhiù ||10||
 
-> page 2 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 11
 
-çré bhagavänuväca -
-açºcyänanvaçºcastvaà
-      prajïävädäàçca bhäñas¹ |
-gatäsünagatäsüàçca
-      nänuçºcanti paëòitäù ||11||
+antavanta im¹ d¹häù
+na tv¹vähaà jätu näsaà                     nityasyºktäù çarériëaù |
+      na tvaà n¹m¹ janädhipäù |       anäçinº'pram¹yasya
+na caiva na bhaviñyämaù                    tasmädyudhyasva bhärata ||11||
 
-> page 2 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 12
 
-na tv¹vähaà jätu näsaà
-      na tvaà n¹m¹ janädhipäù |
-na caiva na bhaviñyämaù
-      sarv¹ vayamataù param ||12||
+ya ¹naà v¹tti hantäraà
+d¹hinº'sminyathä d¹h¹                      yaçcainaà manyat¹ hatam |
+      kaumäraà yauvanaà jarä |        ubhau tau na vijänétaù
+tathä d¹häntarapräptiù                     näyaà hanti na hanyat¹ ||12||
 
-> page 2 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 13
 
-d¹hinº'sminyathä d¹h¹
-      kaumäraà yauvanaà jarä |
-tathä d¹häntarapräptiù
-      dhérastatra na muhyati ||13||
+na jäyat¹ mriyat¹ vä kadäcit
+mäträsparçästu kaunt¹ya                     näyaà bhütvä bhavitä vä na bhüyaù |
+     çétºñëasukhaduùkhadäù |          ajº nityaù çäçvatº'yaà puräëaù
+ägamäpäyinº'nityäù                          na hanyat¹ hanyamän¹ çarér¹ ||13||
 
-> page 2 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 14
 
-mäträsparçästu kaunt¹ya
-     çétºñëasukhaduùkhadäù |
-ägamäpäyinº'nityäù
-     täàstitikñasva bhärata ||14||
+v¹dävinäçinaà nityaà
+yaà hi na vyathayanty¹t¹                   ya ¹namajamavyayam |
+     puruñaà puruñarñabha |           kathaà sa puruñaù pärtha
+samaduùkhasukhaà dhéraà                    kaà ghätayati hanti kam ||14||
 
-> page 2 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 15
 
-yaà hi na vyathayanty¹t¹
-     puruñaà puruñarñabha |
-samaduùkhasukhaà dhéraà
-     sº'måtatväya kalpat¹ ||15||
+väsäàsi jérëäni yathä vihäya              avyaktädéni bhütäni
+      naväni gåhëäti narº'paräëi |             vyaktamadhyäni bhärata |
+tathä çaréräëi vihäya jérëäni             avyaktanidhanäny¹va
+      anyäni saàyäti naväni d¹hé ||15||
 
-> page 2 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 16
 
-näsatº vidyat¹ bhävaù
-     näbhävº vidyat¹ sataù |
-ubhayºrapi dåñöº'ntaù
-     tvanayºstattvadarçibhiù ||16||
+çré bhagavänuväca -                   avinäçi tu tadviddhi
+açºcyänanvaçºcastvaà                       y¹na sarvamidaà tatam |
+      prajïävädäàçca bhäñas¹ |        vinäçamavyayasyäsya
+gatäsünagatäsüàçca                         na kaçcitkartumarhati ||16||
 
-> page 2 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 17
 
-avinäçi tu tadviddhi
-     y¹na sarvamidaà tatam |
-vinäçamavyayasyäsya
-     na kaçcitkartumarhati ||17||
+nänuçºcanti paëòitäù ||17||
 
-> page 2 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 18
 
-antavanta im¹ d¹häù
-     nityasyºktäù çarériëaù |
-anäçinº'pram¹yasya
-     tasmädyudhyasva bhärata ||18||
+sarv¹ vayamataù param ||18||
 
-> page 2 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 19
 
-ya ¹naà v¹tti hantäraà
-     yaçcainaà manyat¹ hatam |
-ubhau tau na vijänétaù
-     näyaà hanti na hanyat¹ ||19||
+dhérastatra na muhyati ||19||
 
-> page 2 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 20
 
-na jäyat¹ mriyat¹ vä kadäcit
-     näyaà bhütvä bhavitä vä na bhüyaù |
-ajº nityaù çäçvatº'yaà puräëaù
-     na hanyat¹ hanyamän¹ çarér¹ ||20||
+täàstitikñasva bhärata ||20||
 
-> page 2 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 21
 
-v¹dävinäçinaà nityaà
-     ya ¹namajamavyayam |
-kathaà sa puruñaù pärtha
-     kaà ghätayati hanti kam ||21||
+sº'måtatväya kalpat¹ ||21||
 
-> page 3 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 22
 
-väsäàsi jérëäni yathä vihäya
-      naväni gåhëäti narº'paräëi |
-tathä çaréräëi vihäya jérëäni
-      anyäni saàyäti naväni d¹hé ||22||
+tatra kä parid¹vanä ||22||
 
-> page 3 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 23
 
-nainaà chindanti çasträëi
-      nainaà dahati pävakaù |
-na cainaà kl¹dayantyäpaù
-      na çºñayati märutaù ||23||
+çrutvä'py¹naà v¹da na caiva kaçcit ||23||
 
-> page 3 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 24
 
-acch¹dyº'yamadähyº'yam
-      akl¹dyº'çºñya ¹va ca |
-nityaù sarvagataù sthäëuù
-      acalº'yaà sanätanaù ||24||
+na tvaà çºcitumarhasi ||24||
 
-> page 3 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 25
 
-avyaktº'yamacintyº'yam
-     avikäryº'yamucyat¹ |
-tasmäd¹vaà viditvainaà
-     nänuçºcitumarhasi ||25||
+kñatriyasya na vidyat¹ ||25||
 
-> page 3 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 26
 
-atha cainaà nityajätaà
-      nityaà vä manyas¹ måtam |
-tathä'pi tvaà mahäbähº
-      naivaà çºcitumarhasi ||26||
+labhant¹ yuddhamédåçam ||26||
 
-> page 3 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 27
 
-jätasya hi dhruvº måtyuù
-      dhruvaà janma måtasya ca |
-tasmädaparihäry¹'rth¹
-      na tvaà çºcitumarhasi ||27||
+hitvä päpamaväpsyasi ||27||
 
-> page 3 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 28
 
-avyaktädéni bhütäni
-     vyaktamadhyäni bhärata |
-avyaktanidhanäny¹va
-     tatra kä parid¹vanä ||28||
+nainaà chindanti çasträëi                 äçcaryavatpaçyati kaçcid¹nam
+      nainaà dahati pävakaù |                   äçcaryavadvadati tathaiva cänyaù |
+na cainaà kl¹dayantyäpaù                  äçcaryavaccainamanyaù çåëºti
+      na çºñayati märutaù ||28||
 
-> page 3 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 29
 
-äçcaryavatpaçyati kaçcid¹nam
-     äçcaryavadvadati tathaiva cänyaù |
-äçcaryavaccainamanyaù çåëºti
-     çrutvä'py¹naà v¹da na caiva kaçcit ||29||
+acch¹dyº'yamadähyº'yam                    d¹hé nityamavadhyº'yaà
+      akl¹dyº'çºñya ¹va ca |                    d¹h¹ sarvasya bhärata |
+nityaù sarvagataù sthäëuù                 tasmätsarväëi bhütäni
+      acalº'yaà sanätanaù ||29||
 
-> page 3 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 30
 
-d¹hé nityamavadhyº'yaà
-     d¹h¹ sarvasya bhärata |
-tasmätsarväëi bhütäni
-     na tvaà çºcitumarhasi ||30||
+avyaktº'yamacintyº'yam                    svadharmamapi cäv¹kñya
+     avikäryº'yamucyat¹ |                      na vikampitumarhasi |
+tasmäd¹vaà viditvainaà                    dharmyäddhi yuddhäcchr¹yº'nyat
+     nänuçºcitumarhasi ||30||
 
-> page 3 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 31
 
-svadharmamapi cäv¹kñya
-     na vikampitumarhasi |
-dharmyäddhi yuddhäcchr¹yº'nyat
-     kñatriyasya na vidyat¹ ||31||
+atha cainaà nityajätaà                    yadåcchayä cºpapannaà
+      nityaà vä manyas¹ måtam |                svargadväramapävåtam |
+tathä'pi tvaà mahäbähº                    sukhinaù kñatriyäù pärtha
+      naivaà çºcitumarhasi ||31||
 
-> page 3 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 32
 
-yadåcchayä cºpapannaà
-     svargadväramapävåtam |
-sukhinaù kñatriyäù pärtha
-     labhant¹ yuddhamédåçam ||32||
+jätasya hi dhruvº måtyuù                  atha c¹ttvamimaà dharmyaà
+      dhruvaà janma måtasya ca |                saìgrämaà na kariñyasi |
+tasmädaparihäry¹'rth¹                     tataù svadharmaà kértià ca
+      na tvaà çºcitumarhasi ||32||
 
-> page 3 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 33
 
-atha c¹ttvamimaà dharmyaà
-     saìgrämaà na kariñyasi |
-tataù svadharmaà kértià ca
-     hitvä päpamaväpsyasi ||33||
+akértià cäpi bhütäni                   n¹häbhikramanäçº'sti
+      kathayiñyanti t¹'vyayäm |             pratyaväyº na vidyat¹ |
+sambhävitasya cäkértiù                 svalpamapyasya dharmasya
+      maraëädatiricyat¹ ||33||
 
-> page 3 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 34
 
-akértià cäpi bhütäni
-      kathayiñyanti t¹'vyayäm |
-sambhävitasya cäkértiù
-      maraëädatiricyat¹ ||34||
+träyat¹ mahatº bhayät ||34||
 
-> page 4 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 35
 
-bhayädraëäduparataà
-     maàsyant¹ tväà mahärathäù |
-y¹ñäà ca tvaà bahumataù
-     bhütvä yäsyasi läghavam ||35||
+buddhayº'vyavasäyinäm ||35||
 
-> page 4 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 36
 
-aväcyavädäàçca bahün
-     vadiñyanti tavähitäù |
-nindantastava sämarthyaà
-     tatº duùkhataraà nu kim ||36||
+nänyadastéti vädinaù ||36||
 
-> page 4 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 37
 
-hatº vä präpsyasi svargaà
-      jitvä vä bhºkñyas¹ mahém |
-tasmäduttiñöha kaunt¹ya
-      yuddhäya kåtaniçcayaù ||37||
+bhºgaiçvaryagatià prati ||37||
 
-> page 4 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 38
 
-sukhaduùkh¹ sam¹ kåtvä
-      läbhäläbhau jayäjayau |
-tatº yuddhäya yujyasva
-      naivaà päpamaväpsyasi ||38||
+samädhau na vidhéyat¹ ||38||
 
-> page 4 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 39
 
-¹ñä t¹'bhihitä säìkhy¹
-      buddhiryºg¹ tvimäà çåëu |
-buddhyä yuktº yayä pärtha
-      karmabandhaà prahäsyasi ||39||
+niryºgakñ¹ma ätmavän ||39||
 
-> page 4 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 40
 
-n¹häbhikramanäçº'sti
-     pratyaväyº na vidyat¹ |
-svalpamapyasya dharmasya
-     träyat¹ mahatº bhayät ||40||
+bhayädraëäduparataà                    vyavasäyätmikä buddhiù
+     maàsyant¹ tväà mahärathäù |            ¹k¹ha kurunandana |
+y¹ñäà ca tvaà bahumataù                bahuçäkhä hyanantäçca
+     bhütvä yäsyasi läghavam ||40||
 
-> page 4 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 41
 
-vyavasäyätmikä buddhiù
-     ¹k¹ha kurunandana |
-bahuçäkhä hyanantäçca
-     buddhayº'vyavasäyinäm ||41||
+aväcyavädäàçca bahün                   yämimäà puñpitäà väcaà
+     vadiñyanti tavähitäù |                 pravadantyavipaçcitaù |
+nindantastava sämarthyaà               v¹davädaratäù pärtha
+     tatº duùkhataraà nu kim ||41||
 
-> page 4 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 42
 
-yämimäà puñpitäà väcaà
-     pravadantyavipaçcitaù |
-v¹davädaratäù pärtha
-     nänyadastéti vädinaù ||42||
+hatº vä präpsyasi svargaà              kämätmänaù svargaparäù
+      jitvä vä bhºkñyas¹ mahém |            janmakarmaphalapradäm |
+tasmäduttiñöha kaunt¹ya                kriyäviç¹ñabahuläà
+      yuddhäya kåtaniçcayaù ||42||
 
-> page 4 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 43
 
-kämätmänaù svargaparäù
-     janmakarmaphalapradäm |
-kriyäviç¹ñabahuläà
-     bhºgaiçvaryagatià prati ||43||
+sukhaduùkh¹ sam¹ kåtvä                 bhºgaiçvaryaprasaktänäà
+      läbhäläbhau jayäjayau |               tayä'pahåtac¹tasäm |
+tatº yuddhäya yujyasva                 vyavasäyätmikä buddhiù
+      naivaà päpamaväpsyasi ||43||
 
-> page 4 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 44
 
-bhºgaiçvaryaprasaktänäà
-     tayä'pahåtac¹tasäm |
-vyavasäyätmikä buddhiù
-     samädhau na vidhéyat¹ ||44||
+¹ñä t¹'bhihitä säìkhy¹                 traiguëyaviñayä v¹däù
+      buddhiryºg¹ tvimäà çåëu |              nistraiguëyº bhavärjuna |
+buddhyä yuktº yayä pärtha              nirdvandvº nityasattvasthaù
+      karmabandhaà prahäsyasi ||44||
 
-> page 4 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 45
 
-traiguëyaviñayä v¹däù
-     nistraiguëyº bhavärjuna |
-nirdvandvº nityasattvasthaù
-     niryºgakñ¹ma ätmavän ||45||
+yävänartha udapän¹                    yadä t¹ mºhakalilaà
+     sarvataù samplutºdak¹ |                buddhirvyatitariñyati |
+tävänsarv¹ñu v¹d¹ñu                   tadä gantä'si nirv¹daà
+     brähmaëasya vijänataù ||45||
 
-> page 4 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 46
 
-yävänartha udapän¹
-     sarvataù samplutºdak¹ |
-tävänsarv¹ñu v¹d¹ñu
-     brähmaëasya vijänataù ||46||
+çrºtavyasya çrutasya ca ||46||
 
-> page 5 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 47
 
-karmaëy¹vädhikärast¹
-     mä phal¹ñu kadäcana |
-mä karmaphalah¹turbhüù
-     mä t¹ saìgº'stvakarmaëi ||47||
+tadä yºgamaväpsyasi ||47||
 
-> page 5 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 48
 
-yºgasthaù kuru karmäëi
-     saìgaà tyaktvä dhanaïjaya |
-siddhyasiddhyºù samº bhütvä
-     samatvaà yºga ucyat¹ ||48||
+sthitadhéù kià prabhäñ¹ta
+dür¹ëa hyavaraà karma                       kimäséta vraj¹ta kim ||48||
 
-> page 5 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 49
 
-dür¹ëa hyavaraà karma
-     buddhiyºgäddhanaïjaya |
-buddhau çaraëamanviccha
-     kåpaëäù phalah¹tavaù ||49||
+prajahäti yadä kämän
+                                            sarvänpärtha manºgatän |
+buddhiyuktº jahätéha                  ätmany¹vätmanä tuñöaù
+     ubh¹ sukåtaduñkåt¹ |                   sthitaprajïastadºcyat¹ ||49||
 
-> page 5 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 50
 
-buddhiyuktº jahätéha
-     ubh¹ sukåtaduñkåt¹ |
-tasmädyºgäya yujyasva
-     yºgaù karmasu kauçalam ||50||
+duùkh¹ñvanudvignamanäù
+                                            sukh¹ñu vigataspåhaù |
+karmajaà buddhiyuktä hi
+                                      vétarägabhayakrºdhaù
+     phalaà tyaktvä manéñiëaù |
+                                             sthitadhérmunirucyat¹ ||50||
 
-> page 5 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 51
 
-karmajaà buddhiyuktä hi
-     phalaà tyaktvä manéñiëaù |
-janmabandhavinirmuktäù
-     padaà gacchantyanämayam ||51||
+yaù sarvatränabhisn¹haù                 krºdhädbhavati sammºhaù
+      tattatpräpya çubhäçubham |             sammºhätsmåtivibhramaù |
+näbhinandati na dv¹ñöi                  småtibhraàçät buddhinäçaù
+      tasya prajïä pratiñöhitä ||51||
 
-> page 5 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 52
 
-yadä t¹ mºhakalilaà
-     buddhirvyatitariñyati |
-tadä gantä'si nirv¹daà
-     çrºtavyasya çrutasya ca ||52||
+karmaëy¹vädhikärast¹                  çrutivipratipannä t¹
+     mä phal¹ñu kadäcana |                  yadä sthäsyati niçcalä |
+mä karmaphalah¹turbhüù                samädhävacalä buddhiù
+     mä t¹ saìgº'stvakarmaëi ||52||
 
-> page 5 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 53
 
-çrutivipratipannä t¹
-     yadä sthäsyati niçcalä |
-samädhävacalä buddhiù
-     tadä yºgamaväpsyasi ||53||
+yºgasthaù kuru karmäëi
+                                      arjuna uväca -
+     saìgaà tyaktvä dhanaïjaya |
+                                      sthitaprajïasya kä bhäñä
+siddhyasiddhyºù samº bhütvä
+                                            samädhisthasya k¹çava |
+     samatvaà yºga ucyat¹ ||53||
 
-> page 5 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 54
 
-arjuna uväca -
-sthitaprajïasya kä bhäñä
-      samädhisthasya k¹çava |
-sthitadhéù kià prabhäñ¹ta
-      kimäséta vraj¹ta kim ||54||
+buddhiyºgäddhanaïjaya |
+buddhau çaraëamanviccha               çré bhagavänuväca -
+     kåpaëäù phalah¹tavaù ||54||
 
-> page 5 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 55
 
-çré bhagavänuväca -
-prajahäti yadä kämän
-      sarvänpärtha manºgatän |
-ätmany¹vätmanä tuñöaù
-      sthitaprajïastadºcyat¹ ||55||
+tasmädyºgäya yujyasva
+     yºgaù karmasu kauçalam ||55||
 
-> page 5 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 56
 
-duùkh¹ñvanudvignamanäù
-      sukh¹ñu vigataspåhaù |
-vétarägabhayakrºdhaù
-      sthitadhérmunirucyat¹ ||56||
+janmabandhavinirmuktäù
+     padaà gacchantyanämayam ||56||
 
-> page 5 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 57
 
-yaù sarvatränabhisn¹haù
-      tattatpräpya çubhäçubham |
-näbhinandati na dv¹ñöi
-      tasya prajïä pratiñöhitä ||57||
+buddhinäçätpraëaçyati ||57||
 
-> page 6 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 58
 
-yadä saàharat¹ cäyaà
-      kürmº'ìgänéva sarvaçaù |
-indriyäëéndriyärth¹bhyaù
-      tasya prajïä pratiñöhitä ||58||
+prasädamadhigacchati ||58||
 
-> page 6 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 59
 
-viñayä vinivartant¹
-     nirähärasya d¹hinaù |
-rasavarjaà rasº'pyasya
-     paraà dåñövä nivartat¹ ||59||
+buddhiù paryavatiñöhat¹ ||59||
 
-> page 6 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 60
 
-yatatº hyapi kaunt¹ya
-      puruñasya vipaçcitaù |
-indriyäëi pramäthéni
-      haranti prasabhaà manaù ||60||
+açäntasya kutaù sukham ||60||
 
-> page 6 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 61
 
-täni sarväëi saàyamya
-      yukta äséta matparaù |
-vaç¹ hi yasy¹ndriyäëi
-      tasya prajïä pratiñöhitä ||61||
+väyurnävamivämbhasi ||61||
 
-> page 6 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 62
 
-dhyäyatº viñayänpuàsaù
-     saìgast¹ñüpajäyat¹ |
-saìgätsaïjäyat¹ kämaù
-     kämätkrºdhº'bhijäyat¹ ||62||
+tasya prajïä pratiñöhitä ||62||
 
-> page 6 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 63
 
-krºdhädbhavati sammºhaù
-     sammºhätsmåtivibhramaù |
-småtibhraàçät buddhinäçaù
-     buddhinäçätpraëaçyati ||63||
+yadä saàharat¹ cäyaà                    rägadv¹ñaviyuktaistu
+      kürmº'ìgänéva sarvaçaù |               viñayänindriyaiçcaran |
+indriyäëéndriyärth¹bhyaù                ätmavaçyairvidh¹yätmä
+      tasya prajïä pratiñöhitä ||63||
 
-> page 6 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 64
 
-rägadv¹ñaviyuktaistu
-     viñayänindriyaiçcaran |
-ätmavaçyairvidh¹yätmä
-     prasädamadhigacchati ||64||
+viñayä vinivartant¹                     prasäd¹ sarvaduùkhänäà
+     nirähärasya d¹hinaù |                   hänirasyºpajäyat¹ |
+rasavarjaà rasº'pyasya                  prasannac¹tasº hyäçu
+     paraà dåñövä nivartat¹ ||64||
 
-> page 6 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 65
 
-prasäd¹ sarvaduùkhänäà
-     hänirasyºpajäyat¹ |
-prasannac¹tasº hyäçu
-     buddhiù paryavatiñöhat¹ ||65||
+yatatº hyapi kaunt¹ya                   nä'sti buddhirayuktasya
+      puruñasya vipaçcitaù |                   na cäyuktasya bhävanä |
+indriyäëi pramäthéni                    na cäbhävayataù çäntiù
+      haranti prasabhaà manaù ||65||
 
-> page 6 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 66
 
-nä'sti buddhirayuktasya
-      na cäyuktasya bhävanä |
-na cäbhävayataù çäntiù
-      açäntasya kutaù sukham ||66||
+täni sarväëi saàyamya                   indriyäëäà hi caratäà
+      yukta äséta matparaù |                  yanmanº'nuvidhéyat¹ |
+vaç¹ hi yasy¹ndriyäëi                   tadasya harati prajïäà
+      tasya prajïä pratiñöhitä ||66||
 
-> page 6 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 67
 
-indriyäëäà hi caratäà
-      yanmanº'nuvidhéyat¹ |
-tadasya harati prajïäà
-      väyurnävamivämbhasi ||67||
+dhyäyatº viñayänpuàsaù                  tasmädyasya mahäbähº
+     saìgast¹ñüpajäyat¹ |                     nigåhétäni sarvaçaù |
+saìgätsaïjäyat¹ kämaù                   indriyäëéndriyärth¹bhyaù
+     kämätkrºdhº'bhijäyat¹ ||67||
 
-> page 6 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 68
 
-tasmädyasya mahäbähº
-      nigåhétäni sarvaçaù |
-indriyäëéndriyärth¹bhyaù
-      tasya prajïä pratiñöhitä ||68||
+yä niçä sarvabhütänäà                                 vihäya kämänyaù sarvän
+      tasyäà jägarti saàyamé |                             pumäàçcarati nisspåhaù |
+yasyäà jägrati bhütäni                                nirmamº nirahaìkäraù
+      sä niçä paçyatº mun¹ù ||68||
 
-> page 6 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 69
 
-yä niçä sarvabhütänäà
-      tasyäà jägarti saàyamé |
-yasyäà jägrati bhütäni
-      sä niçä paçyatº mun¹ù ||69||
+sa çäntimadhigacchati ||69||
 
-> page 7 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 70
 
-äpüryamäëamacalapratiñöhaà
-     samudramäpaù praviçanti yadvat |
-tadvatkämä yaà praviçanti sarv¹
-     sa çäntimäpnºti na kämakämé ||70||
+brahmanirväëamåcchati ||70||
 
-> page 7 (left half)
+> page ? (left/right half)  ← update
 
 ## Verse 71
 
-vihäya kämänyaù sarvän
-      pumäàçcarati nisspåhaù |
-nirmamº nirahaìkäraù
-      sa çäntimadhigacchati ||71||
+äpüryamäëamacalapratiñöhaà                            ¹ñä brähmé sthitiù pärtha
+     samudramäpaù praviçanti yadvat |                       nainäà präpya vimuhyati |
+tadvatkämä yaà praviçanti sarv¹                       sthitväsyämantakäl¹'pi
+     sa çäntimäpnºti na kämakämé ||71||
 
-> page 7 (right half)
+> page ? (left/right half)  ← update
 
 ## Verse 72
 
-¹ñä brähmé sthitiù pärtha
-      nainäà präpya vimuhyati |
-sthitväsyämantakäl¹'pi
-      brahmanirväëamåcchati ||72||
+|| ºm tatsaditi çrémadbhagavadgétäsu upaniñatsu brahmavidyäyäà yºgaçästr¹ çrékåñëärjuna-saàväd¹ säìkhya-
+                                        yºgº näma dvitéyº'dhyäyaù || ||72||
 
-> page 7 (right half)
+> page ? (left/right half)  ← update

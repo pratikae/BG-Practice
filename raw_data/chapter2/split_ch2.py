@@ -77,7 +77,7 @@ verse_starts = [
 ]
 colophon_start = 1213.96
 
-src = "raw_data/1_Ch 2 Complete.mp3"
+src = "raw_data/chapter2/1_Ch 2 Complete.mp3"
 out_dir = "Chapter 2"
 os.makedirs(out_dir, exist_ok=True)
 

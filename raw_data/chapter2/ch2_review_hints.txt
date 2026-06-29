@@ -1,0 +1,31 @@
+# Verse boundary review hints
+
+For each flagged verse, the top 5 inter-word gaps near its boundary are listed.
+Find the correct gap, then re-run with corrected timestamps if needed.
+
+## Verse 50  (847.84s – 857.82s, dur=9.98s)
+
+  Top gaps near verse 50 boundary:
+    gap=2.90s  at 843.88s  '-fphalahetavaha,' → 'buddhi'
+    gap=2.48s  at 847.84s  'jahatiha,' → 'ube'
+    gap=1.80s  at 851.26s  '-dushkrate,' → 'tasma'
+    gap=1.80s  at 836.80s  '-nanjaya,' → 'buddhau'
+    gap=1.78s  at 857.82s  '-karmasukau' → '-shalam,'
+
+## Verse 70  (1177.64s – 1186.90s, dur=9.26s)
+
+  Top gaps near verse 70 boundary:
+    gap=2.16s  at 1182.56s  '-makāmi,' → 'vihāyakā'
+    gap=2.02s  at 1186.90s  '-sarvān,' → 'pūmāṁś'
+    gap=1.78s  at 1177.64s  '-sarve,' → 'sāśānti'
+    gap=1.78s  at 1172.60s  '-yadvat,' → 'tadvat'
+    gap=1.62s  at 1168.08s  '-prateśtham,' → 'samudra'
+
+## Verse 72  (1206.06s – 1215.00s, dur=8.94s)
+
+  Top gaps near verse 72 boundary:
+    gap=2.58s  at 1206.06s  'prapyavimuhyati,' → 'sthitvās'
+    gap=2.24s  at 1202.40s  '-vpārthā,' → 'nāināṁ'
+    gap=1.94s  at 1216.94s  '-tatsaditi,' → 'śrīmad'
+    gap=1.86s  at 1197.34s  '-gacchati,' → 'āśā'
+    gap=1.78s  at 1210.46s  '-lepi,' → 'brahmā'

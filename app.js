@@ -156,9 +156,6 @@ function getGapDurationForIndex(queue, index) {
   const followingVerse = queue[index + 1];
   if (!currentVerse || !followingVerse) return 0;
 
-  // No gap before the colophon
-  if (followingVerse.type === "colophon") return 0;
-
   // No gap if the next verse in the queue immediately follows in sequence
   if (followingVerse.number === currentVerse.number + 1) return 0;
 

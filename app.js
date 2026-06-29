@@ -1,3 +1,5 @@
+const sharedAudio = new Audio();
+
 const state = {
   chapters: [],
   activeChapter: null,
@@ -219,45 +221,37 @@ function playNextVerse() {
 
   const verse = state.queue[state.currentIndex];
   const gapDuration = getGapDurationForIndex(state.queue, state.currentIndex);
-  const audio = new Audio(verse.file);
-  state.currentAudio = audio;
-  audio.preload = "auto";
-  audio.currentTime = 0;
 
-  const startPlayback = () => {
-    audio.play().then(() => {
-      audio.playbackRate = state.speed;
-      updateCurrentVerse(verse.number);
-      const verseDuration = state.verseDurations.get(verse.file) || audio.duration || 0;
-      const totalDelayMs = ((verseDuration + gapDuration) / state.speed) * 1000;
-      const verseLabel = verse.number === 0 ? "intro" : `verse ${verse.number}`;
-      setStatus(`Playing ${verseLabel} at ${formatSpeed(state.speed)} with a ${(gapDuration / state.speed).toFixed(1)}s pause after it.`);
+  sharedAudio.src = verse.file;
+  sharedAudio.currentTime = 0;
+  state.currentAudio = sharedAudio;
 
-      if (gapDuration > 0) {
-        const gapStartMs = (verseDuration / state.speed) * 1000;
-        const skippedNum = verse.number + 1;
-        state.gapTimer = window.setTimeout(() => {
-          state.gapTimer = null;
-          currentVerseLabel.textContent = `Chant verse ${skippedNum}`;
-          setStatus(`Chant verse ${skippedNum} (${(gapDuration / state.speed).toFixed(1)}s)`);
-        }, gapStartMs);
-      }
+  sharedAudio.play().then(() => {
+    sharedAudio.playbackRate = state.speed;
+    updateCurrentVerse(verse.number);
+    const verseDuration = state.verseDurations.get(verse.file) || sharedAudio.duration || 0;
+    const totalDelayMs = ((verseDuration + gapDuration) / state.speed) * 1000;
+    const verseLabel = verse.number === 0 ? "intro" : `verse ${verse.number}`;
+    setStatus(`Playing ${verseLabel} at ${formatSpeed(state.speed)} with a ${(gapDuration / state.speed).toFixed(1)}s pause after it.`);
 
-      state.playbackTimer = window.setTimeout(() => {
-        state.currentIndex += 1;
-        playNextVerse();
-      }, totalDelayMs);
-    }).catch(() => {
-      setStatus("Playback was blocked by the browser. Please tap play again.");
-      stopPlayback(false);
-    });
-  };
+    if (gapDuration > 0) {
+      const gapStartMs = (verseDuration / state.speed) * 1000;
+      const skippedNum = verse.number + 1;
+      state.gapTimer = window.setTimeout(() => {
+        state.gapTimer = null;
+        currentVerseLabel.textContent = `Chant verse ${skippedNum}`;
+        setStatus(`Chant verse ${skippedNum} (${(gapDuration / state.speed).toFixed(1)}s)`);
+      }, gapStartMs);
+    }
 
-  if (audio.readyState >= 2) {
-    startPlayback();
-  } else {
-    audio.addEventListener("canplaythrough", startPlayback, { once: true });
-  }
+    state.playbackTimer = window.setTimeout(() => {
+      state.currentIndex += 1;
+      playNextVerse();
+    }, totalDelayMs);
+  }).catch(() => {
+    setStatus("Playback was blocked by the browser. Please tap play again.");
+    stopPlayback(false);
+  });
 }
 
 async function loadChapter(chapterId) {

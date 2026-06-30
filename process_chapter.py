@@ -202,6 +202,7 @@ def detect_verse_starts(
     for v in range(2, num_verses + 1):
         expected = current + avg_dur
         lo, hi   = expected - BOUNDARY_WINDOW, expected + BOUNDARY_WINDOW
+        hi       = min(hi, colophon_t - 0.5)  # never search past the colophon
 
         # If a known uvāca anchor falls in the window, prefer it
         anchors_in_window = [t for t in uvaca_set if lo <= t <= hi]

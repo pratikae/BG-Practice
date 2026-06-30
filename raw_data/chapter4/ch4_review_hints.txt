@@ -1,0 +1,85 @@
+# Verse boundary review hints
+
+For each flagged verse, the top 5 inter-word gaps near its boundary are listed.
+Find the correct gap, then re-run with corrected timestamps if needed.
+
+## Verse 8  (131.12s – 140.30s, dur=9.18s)
+
+  Top gaps near verse 8 boundary:
+    gap=4.26s  at 124.06s  'Ṭhīmam' → 'vivasvate'
+    gap=2.96s  at 119.80s  'bhagavānuvāja' → 'Ṭhīmam'
+    gap=2.94s  at 140.30s  'samsthāpanārthāya' → 'sambhavāmi'
+    gap=2.46s  at 131.12s  'paritrāṇāya' → 'sādhūnāṁ'
+    gap=2.20s  at 126.28s  'Ṣādāt' → 'mānaṁ'
+
+## Verse 12  (190.78s – 200.00s, dur=9.22s)
+
+  Top gaps near verse 12 boundary:
+    gap=2.20s  at 190.78s  'kāṅkshaṭaḥ' → 'karmaṇāṁ'
+    gap=2.04s  at 200.00s  'manusheloke' → 'siddhir'
+    gap=2.02s  at 186.50s  'manushyāv' → 'pārtha'
+    gap=1.70s  at 201.70s  'siddhir' → 'bhavati'
+    gap=1.56s  at 196.44s  'devataḥ' → 'kṣipraṁ'
+
+## Verse 14  (216.66s – 225.14s, dur=8.48s)
+
+  Top gaps near verse 14 boundary:
+    gap=2.22s  at 216.66s  'vidhyakartaṁ' → 'avyayam'
+    gap=1.80s  at 225.14s  'phalespraḥ' → 'āti'
+    gap=1.70s  at 209.78s  'gunakarmavi' → 'bhāgashah'
+    gap=1.60s  at 219.28s  'namaṁ' → 'karmaṇi'
+    gap=1.40s  at 205.04s  'chātur' → 'varñyam'
+
+## Verse 15  (225.14s – 233.80s, dur=8.66s)
+
+  Top gaps near verse 15 boundary:
+    gap=2.22s  at 216.66s  'vidhyakartaṁ' → 'avyayam'
+    gap=1.80s  at 225.14s  'phalespraḥ' → 'āti'
+    gap=1.76s  at 233.80s  'evam' → 'gnyātva'
+    gap=1.60s  at 219.28s  'namaṁ' → 'karmaṇi'
+    gap=1.48s  at 235.28s  'gnyātva' → 'krṭam'
+
+## Verse 27  (431.80s – 440.06s, dur=8.26s)
+
+  Top gaps near verse 27 boundary:
+    gap=3.52s  at 431.80s  'drāvyayajñāstapo' → 'yajñāha'
+    gap=3.28s  at 440.06s  'svādhyāyajñāna' → 'yajñāśca'
+    gap=3.06s  at 434.86s  'yajñāha' → 'yogayajñāstatha'
+    gap=2.68s  at 442.74s  'yajñāśca' → 'yatayasam'
+    gap=2.68s  at 425.22s  'samyamayogāgnao' → 'juhvati'
+
+## Verse 33  (513.34s – 522.04s, dur=8.70s)
+
+  Top gaps near verse 33 boundary:
+    gap=4.28s  at 513.34s  'śreyāndravyamayādh' → 'yajñāt'
+    gap=2.40s  at 522.04s  'khilampārtha' → 'njāne'
+    gap=2.32s  at 508.52s  'jñātvāvimokṣya' → 'se'
+    gap=1.88s  at 524.86s  'parisamāpya' → 'te'
+    gap=1.70s  at 502.22s  'karmajān' → 'viddhītān'
+
+## Verse 39  (620.10s – 628.72s, dur=8.62s)
+
+  Top gaps near verse 39 boundary:
+    gap=6.10s  at 620.10s  'ajnashchāśraddhānascha' → 'samśayātmāvinashyati'
+    gap=2.18s  at 628.72s  'samśayātmanaha' → 'yoga'
+    gap=2.02s  at 613.16s  'achirenādhi' → 'gacchati'
+    gap=1.60s  at 631.16s  'sannyastakar' → 'mānam'
+    gap=1.40s  at 622.90s  'nāyam' → 'loko'
+
+## Verse 41  (644.32s – 653.98s, dur=9.66s)
+
+  Top gaps near verse 41 boundary:
+    gap=2.48s  at 644.32s  'tasmādhjāna' → 'sambhūtam'
+    gap=2.14s  at 647.68s  'ratsthamjāna' → 'asinātmanaha'
+    gap=1.94s  at 649.62s  'asinātmanaha' → 'chitvayinam'
+    gap=1.78s  at 637.34s  'ātmavantam' → 'na'
+    gap=1.64s  at 651.26s  'chitvayinam' → 'samśayam'
+
+## Verse 42  (653.98s – 659.10s, dur=5.12s)
+
+  Top gaps near verse 42 boundary:
+    gap=3.84s  at 662.94s  'tatsaditi' → 'śrīmadbhāgavadgītāsu'
+    gap=2.48s  at 644.32s  'tasmādhjāna' → 'sambhūtam'
+    gap=2.14s  at 647.68s  'ratsthamjāna' → 'asinātmanaha'
+    gap=1.94s  at 649.62s  'asinātmanaha' → 'chitvayinam'
+    gap=1.88s  at 659.10s  'oṁ' → 'tatsaditi'

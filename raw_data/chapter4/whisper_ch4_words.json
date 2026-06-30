@@ -1,0 +1,2397 @@
+[
+  {
+    "word": "ॐṁṁ",
+    "start": 1.7000000000000002,
+    "end": 3.1
+  },
+  {
+    "word": "śrī",
+    "start": 3.1,
+    "end": 3.86
+  },
+  {
+    "word": "paramaṭmane",
+    "start": 3.86,
+    "end": 6.02
+  },
+  {
+    "word": "namaha",
+    "start": 6.02,
+    "end": 7.16
+  },
+  {
+    "word": "Ṣhāceturtho",
+    "start": 7.16,
+    "end": 9.36
+  },
+  {
+    "word": "dhyāyaḥ",
+    "start": 9.36,
+    "end": 10.96
+  },
+  {
+    "word": "Ṣhāna",
+    "start": 10.96,
+    "end": 12.3
+  },
+  {
+    "word": "-yogaḥ",
+    "start": 12.3,
+    "end": 13.34
+  },
+  {
+    "word": "śrī",
+    "start": 13.34,
+    "end": 14.8
+  },
+  {
+    "word": "bhagavānuvāja",
+    "start": 14.8,
+    "end": 17.1
+  },
+  {
+    "word": "Ṭhīmam",
+    "start": 17.1,
+    "end": 18.42
+  },
+  {
+    "word": "vivasvate",
+    "start": 18.42,
+    "end": 19.58
+  },
+  {
+    "word": "yogam",
+    "start": 19.58,
+    "end": 20.94
+  },
+  {
+    "word": "ॐṁṁ",
+    "start": 65.91999999999999,
+    "end": 67.32
+  },
+  {
+    "word": "śrī",
+    "start": 67.32,
+    "end": 67.56
+  },
+  {
+    "word": "paramaṭmane",
+    "start": 67.56,
+    "end": 68.66
+  },
+  {
+    "word": "namaha",
+    "start": 68.66,
+    "end": 72.62
+  },
+  {
+    "word": "Ṣhāna",
+    "start": 72.62,
+    "end": 74.02
+  },
+  {
+    "word": "-yogaḥ",
+    "start": 74.02,
+    "end": 77.48
+  },
+  {
+    "word": "śrī",
+    "start": 77.48,
+    "end": 77.54
+  },
+  {
+    "word": "bhagavānuvāja",
+    "start": 77.54,
+    "end": 80.86
+  },
+  {
+    "word": "Ṭhīmam",
+    "start": 80.86,
+    "end": 80.88
+  },
+  {
+    "word": "vivasvate",
+    "start": 80.88,
+    "end": 80.88
+  },
+  {
+    "word": "yogam",
+    "start": 80.88,
+    "end": 80.92
+  },
+  {
+    "word": "ॐṁṁ",
+    "start": 80.94,
+    "end": 81.32
+  },
+  {
+    "word": "śrī",
+    "start": 81.32,
+    "end": 81.88
+  },
+  {
+    "word": "bhagavānuvāja",
+    "start": 81.88,
+    "end": 84.0
+  },
+  {
+    "word": "Ṭhīmam",
+    "start": 84.0,
+    "end": 86.08
+  },
+  {
+    "word": "vivasvate",
+    "start": 86.08,
+    "end": 86.86
+  },
+  {
+    "word": "yogam",
+    "start": 86.86,
+    "end": 88.36
+  },
+  {
+    "word": "ॐṁṁ",
+    "start": 101.69999999999999,
+    "end": 103.1
+  },
+  {
+    "word": "śrī",
+    "start": 103.1,
+    "end": 103.12
+  },
+  {
+    "word": "bhagavānuvāja",
+    "start": 103.12,
+    "end": 104.02
+  },
+  {
+    "word": "Ṭhīmam",
+    "start": 104.02,
+    "end": 104.08
+  },
+  {
+    "word": "vivasvate",
+    "start": 104.08,
+    "end": 105.14
+  },
+  {
+    "word": "yogam",
+    "start": 105.14,
+    "end": 110.32
+  },
+  {
+    "word": "ॐṁṁ",
+    "start": 110.32,
+    "end": 110.92
+  },
+  {
+    "word": "śrī",
+    "start": 110.92,
+    "end": 111.06
+  },
+  {
+    "word": "bhagavānuvāja",
+    "start": 111.06,
+    "end": 112.22
+  },
+  {
+    "word": "Ṭhīmam",
+    "start": 112.22,
+    "end": 112.6
+  },
+  {
+    "word": "vivasvate",
+    "start": 112.6,
+    "end": 113.64
+  },
+  {
+    "word": "yogam",
+    "start": 113.64,
+    "end": 114.2
+  },
+  {
+    "word": "ॐṁṁ",
+    "start": 114.2,
+    "end": 115.22
+  },
+  {
+    "word": "śrī",
+    "start": 115.22,
+    "end": 116.84
+  },
+  {
+    "word": "bhagavānuvāja",
+    "start": 116.84,
+    "end": 119.8
+  },
+  {
+    "word": "Ṭhīmam",
+    "start": 119.8,
+    "end": 124.06
+  },
+  {
+    "word": "vivasvate",
+    "start": 124.06,
+    "end": 124.08
+  },
+  {
+    "word": "yogam",
+    "start": 124.08,
+    "end": 124.08
+  },
+  {
+    "word": "Ṣādāt",
+    "start": 124.08,
+    "end": 126.28
+  },
+  {
+    "word": "mānaṁ",
+    "start": 126.28,
+    "end": 127.18
+  },
+  {
+    "word": "śrī",
+    "start": 127.18,
+    "end": 127.54
+  },
+  {
+    "word": "jāṁ",
+    "start": 127.54,
+    "end": 128.0
+  },
+  {
+    "word": "yāṁ",
+    "start": 128.0,
+    "end": 128.66
+  },
+  {
+    "word": "paritrāṇāya",
+    "start": 128.66,
+    "end": 131.12
+  },
+  {
+    "word": "sādhūnāṁ",
+    "start": 131.12,
+    "end": 132.92
+  },
+  {
+    "word": "vināśāya",
+    "start": 132.92,
+    "end": 134.78
+  },
+  {
+    "word": "ca",
+    "start": 134.78,
+    "end": 134.98
+  },
+  {
+    "word": "duṣkṛtāṁ",
+    "start": 134.98,
+    "end": 136.52
+  },
+  {
+    "word": "dharma",
+    "start": 136.52,
+    "end": 137.36
+  },
+  {
+    "word": "samsthāpanārthāya",
+    "start": 137.36,
+    "end": 140.3
+  },
+  {
+    "word": "sambhavāmi",
+    "start": 140.3,
+    "end": 142.2
+  },
+  {
+    "word": "yuge",
+    "start": 142.2,
+    "end": 142.66
+  },
+  {
+    "word": "yuge",
+    "start": 142.66,
+    "end": 143.5
+  },
+  {
+    "word": "Ṣanma",
+    "start": 144.3,
+    "end": 145.0
+  },
+  {
+    "word": "karma",
+    "start": 145.0,
+    "end": 145.44
+  },
+  {
+    "word": "ca",
+    "start": 145.44,
+    "end": 145.92
+  },
+  {
+    "word": "me",
+    "start": 145.92,
+    "end": 146.32
+  },
+  {
+    "word": "divyam",
+    "start": 146.32,
+    "end": 147.24
+  },
+  {
+    "word": "evam",
+    "start": 147.24,
+    "end": 148.5
+  },
+  {
+    "word": "yo",
+    "start": 148.5,
+    "end": 148.98
+  },
+  {
+    "word": "veti",
+    "start": 148.98,
+    "end": 149.64
+  },
+  {
+    "word": "tattvatah",
+    "start": 149.64,
+    "end": 150.9
+  },
+  {
+    "word": "tyaktvādeham",
+    "start": 150.9,
+    "end": 153.66
+  },
+  {
+    "word": "punar",
+    "start": 153.66,
+    "end": 154.26
+  },
+  {
+    "word": "janma",
+    "start": 154.26,
+    "end": 155.24
+  },
+  {
+    "word": "naite",
+    "start": 155.24,
+    "end": 156.24
+  },
+  {
+    "word": "māmeti",
+    "start": 156.24,
+    "end": 157.5
+  },
+  {
+    "word": "sūrjuna",
+    "start": 157.5,
+    "end": 158.4
+  },
+  {
+    "word": "Ṣaṁ",
+    "start": 158.4,
+    "end": 159.26
+  },
+  {
+    "word": "Ṣaṁ",
+    "start": 159.26,
+    "end": 159.26
+  },
+  {
+    "word": "Ṣaṁ",
+    "start": 159.26,
+    "end": 159.26
+  },
+  {
+    "word": "vītaraṁ",
+    "start": 159.26,
+    "end": 160.32
+  },
+  {
+    "word": "bhayakrodhā",
+    "start": 160.32,
+    "end": 162.26
+  },
+  {
+    "word": "mānam",
+    "start": 162.26,
+    "end": 163.62
+  },
+  {
+    "word": "yā",
+    "start": 163.62,
+    "end": 164.16
+  },
+  {
+    "word": "mām",
+    "start": 164.16,
+    "end": 164.78
+  },
+  {
+    "word": "upāśritā",
+    "start": 164.78,
+    "end": 166.2
+  },
+  {
+    "word": "bāha",
+    "start": 166.2,
+    "end": 167.46
+  },
+  {
+    "word": "vō",
+    "start": 167.46,
+    "end": 168.0
+  },
+  {
+    "word": "gnānata",
+    "start": 168.0,
+    "end": 168.98
+  },
+  {
+    "word": "-pasa",
+    "start": 168.98,
+    "end": 169.66
+  },
+  {
+    "word": "Ṣaṁ",
+    "start": 169.8,
+    "end": 170.5
+  },
+  {
+    "word": "pūtā",
+    "start": 170.5,
+    "end": 171.26
+  },
+  {
+    "word": "madbhāvamāgatā",
+    "start": 171.26,
+    "end": 173.72
+  },
+  {
+    "word": "yē",
+    "start": 173.72,
+    "end": 174.92
+  },
+  {
+    "word": "yātā",
+    "start": 174.92,
+    "end": 175.6
+  },
+  {
+    "word": "mām",
+    "start": 175.6,
+    "end": 176.34
+  },
+  {
+    "word": "prapadyante",
+    "start": 176.34,
+    "end": 177.62
+  },
+  {
+    "word": "Ṣaṁ",
+    "start": 178.16000000000003,
+    "end": 178.86
+  },
+  {
+    "word": "Ṣaṁ",
+    "start": 178.86,
+    "end": 179.3
+  },
+  {
+    "word": "tathā",
+    "start": 179.3,
+    "end": 179.44
+  },
+  {
+    "word": "eva",
+    "start": 179.44,
+    "end": 179.86
+  },
+  {
+    "word": "bhajaṁ",
+    "start": 179.86,
+    "end": 180.56
+  },
+  {
+    "word": "yāṁ",
+    "start": 180.56,
+    "end": 181.18
+  },
+  {
+    "word": "māma",
+    "start": 181.18,
+    "end": 182.14
+  },
+  {
+    "word": "vārtmānu",
+    "start": 182.14,
+    "end": 183.32
+  },
+  {
+    "word": "vārtante",
+    "start": 183.32,
+    "end": 184.48
+  },
+  {
+    "word": "manushyāv",
+    "start": 184.48,
+    "end": 186.5
+  },
+  {
+    "word": "pārtha",
+    "start": 186.5,
+    "end": 187.26
+  },
+  {
+    "word": "sarvaśaḥ",
+    "start": 187.26,
+    "end": 188.58
+  },
+  {
+    "word": "kāṅkshaṭaḥ",
+    "start": 188.58,
+    "end": 190.78
+  },
+  {
+    "word": "karmaṇāṁ",
+    "start": 190.78,
+    "end": 192.18
+  },
+  {
+    "word": "siddhim",
+    "start": 192.18,
+    "end": 193.06
+  },
+  {
+    "word": "yajanta",
+    "start": 193.06,
+    "end": 194.28
+  },
+  {
+    "word": "iha",
+    "start": 194.28,
+    "end": 194.88
+  },
+  {
+    "word": "devataḥ",
+    "start": 194.88,
+    "end": 196.44
+  },
+  {
+    "word": "kṣipraṁ",
+    "start": 196.44,
+    "end": 197.76
+  },
+  {
+    "word": "hi",
+    "start": 197.76,
+    "end": 197.96
+  },
+  {
+    "word": "manusheloke",
+    "start": 197.96,
+    "end": 200.0
+  },
+  {
+    "word": "siddhir",
+    "start": 200.0,
+    "end": 201.7
+  },
+  {
+    "word": "bhavati",
+    "start": 201.7,
+    "end": 202.48
+  },
+  {
+    "word": "karmaja",
+    "start": 202.48,
+    "end": 203.64
+  },
+  {
+    "word": "chātur",
+    "start": 203.64,
+    "end": 205.04
+  },
+  {
+    "word": "varñyam",
+    "start": 205.04,
+    "end": 206.02
+  },
+  {
+    "word": "mayaḥ",
+    "start": 206.02,
+    "end": 207.22
+  },
+  {
+    "word": "śrāṣṭam",
+    "start": 207.22,
+    "end": 208.08
+  },
+  {
+    "word": "gunakarmavi",
+    "start": 208.08,
+    "end": 209.78
+  },
+  {
+    "word": "bhāgashah",
+    "start": 209.78,
+    "end": 210.98
+  },
+  {
+    "word": "tasya",
+    "start": 210.98,
+    "end": 212.2
+  },
+  {
+    "word": "kartaṁ",
+    "start": 212.2,
+    "end": 213.44
+  },
+  {
+    "word": "api",
+    "start": 213.44,
+    "end": 213.84
+  },
+  {
+    "word": "mām",
+    "start": 213.84,
+    "end": 214.44
+  },
+  {
+    "word": "vidhyakartaṁ",
+    "start": 214.44,
+    "end": 216.66
+  },
+  {
+    "word": "avyayam",
+    "start": 216.66,
+    "end": 217.68
+  },
+  {
+    "word": "namaṁ",
+    "start": 217.68,
+    "end": 219.28
+  },
+  {
+    "word": "karmaṇi",
+    "start": 219.28,
+    "end": 220.4
+  },
+  {
+    "word": "limpanthi",
+    "start": 220.4,
+    "end": 221.68
+  },
+  {
+    "word": "name",
+    "start": 221.68,
+    "end": 222.56
+  },
+  {
+    "word": "karma",
+    "start": 222.56,
+    "end": 223.34
+  },
+  {
+    "word": "phalespraḥ",
+    "start": 223.34,
+    "end": 225.14
+  },
+  {
+    "word": "āti",
+    "start": 225.14,
+    "end": 225.94
+  },
+  {
+    "word": "mām",
+    "start": 225.94,
+    "end": 226.68
+  },
+  {
+    "word": "yobhija",
+    "start": 226.68,
+    "end": 227.58
+  },
+  {
+    "word": "nāti",
+    "start": 227.58,
+    "end": 228.68
+  },
+  {
+    "word": "karma",
+    "start": 228.68,
+    "end": 229.8
+  },
+  {
+    "word": "vhirna",
+    "start": 229.8,
+    "end": 230.62
+  },
+  {
+    "word": "sabadhyate",
+    "start": 230.62,
+    "end": 232.04
+  },
+  {
+    "word": "evam",
+    "start": 232.04,
+    "end": 233.8
+  },
+  {
+    "word": "gnyātva",
+    "start": 233.8,
+    "end": 235.28
+  },
+  {
+    "word": "krṭam",
+    "start": 235.28,
+    "end": 236.22
+  },
+  {
+    "word": "karma",
+    "start": 236.22,
+    "end": 237.12
+  },
+  {
+    "word": "purvairapi",
+    "start": 237.88,
+    "end": 239.42
+  },
+  {
+    "word": "mumokṣu",
+    "start": 239.42,
+    "end": 240.3
+  },
+  {
+    "word": "bhihi",
+    "start": 240.3,
+    "end": 241.24
+  },
+  {
+    "word": "kuru",
+    "start": 241.24,
+    "end": 241.92
+  },
+  {
+    "word": "karma",
+    "start": 241.92,
+    "end": 242.3
+  },
+  {
+    "word": "ivatas",
+    "start": 242.3,
+    "end": 243.56
+  },
+  {
+    "word": "mātvam",
+    "start": 243.56,
+    "end": 244.78
+  },
+  {
+    "word": "purvayi",
+    "start": 244.78,
+    "end": 246.52
+  },
+  {
+    "word": "phurvataram",
+    "start": 246.52,
+    "end": 247.92
+  },
+  {
+    "word": "krṭam",
+    "start": 247.92,
+    "end": 248.64
+  },
+  {
+    "word": "kim",
+    "start": 248.64,
+    "end": 249.6
+  },
+  {
+    "word": "karma",
+    "start": 249.6,
+    "end": 250.16
+  },
+  {
+    "word": "kimakarmeti",
+    "start": 250.16,
+    "end": 252.14
+  },
+  {
+    "word": "kavayopyaṭra",
+    "start": 252.14,
+    "end": 254.56
+  },
+  {
+    "word": "mohitāḥ",
+    "start": 254.56,
+    "end": 256.32
+  },
+  {
+    "word": "tattekarma",
+    "start": 256.32,
+    "end": 258.46
+  },
+  {
+    "word": "pravakṣyāmi",
+    "start": 258.46,
+    "end": 260.32
+  },
+  {
+    "word": "yajñātva",
+    "start": 260.32,
+    "end": 262.34
+  },
+  {
+    "word": "mokṣya",
+    "start": 262.34,
+    "end": 263.38
+  },
+  {
+    "word": "se",
+    "start": 263.38,
+    "end": 263.7
+  },
+  {
+    "word": "shubhāt",
+    "start": 263.7,
+    "end": 265.08
+  },
+  {
+    "word": "karmaṇohyapi",
+    "start": 265.08,
+    "end": 267.16
+  },
+  {
+    "word": "bod",
+    "start": 267.16,
+    "end": 267.74
+  },
+  {
+    "word": "dhavyam",
+    "start": 267.74,
+    "end": 268.84
+  },
+  {
+    "word": "bod",
+    "start": 268.84,
+    "end": 269.58
+  },
+  {
+    "word": "dhavyam",
+    "start": 269.58,
+    "end": 270.7
+  },
+  {
+    "word": "chavi",
+    "start": 270.7,
+    "end": 271.2
+  },
+  {
+    "word": "karmaṇahā",
+    "start": 271.2,
+    "end": 272.8
+  },
+  {
+    "word": "ākarmaṇas",
+    "start": 272.8,
+    "end": 274.36
+  },
+  {
+    "word": "ca",
+    "start": 274.36,
+    "end": 274.64
+  },
+  {
+    "word": "bod",
+    "start": 274.64,
+    "end": 275.14
+  },
+  {
+    "word": "dhavyam",
+    "start": 275.14,
+    "end": 276.34
+  },
+  {
+    "word": "gāhanā",
+    "start": 276.34,
+    "end": 277.68
+  },
+  {
+    "word": "karmaṇogati",
+    "start": 277.68,
+    "end": 279.54
+  },
+  {
+    "word": "hi",
+    "start": 279.54,
+    "end": 279.98
+  },
+  {
+    "word": "karmaṇya",
+    "start": 280.52,
+    "end": 281.58
+  },
+  {
+    "word": "karma",
+    "start": 281.58,
+    "end": 281.96
+  },
+  {
+    "word": "yafpashyēt",
+    "start": 281.96,
+    "end": 284.1
+  },
+  {
+    "word": "ākarmani",
+    "start": 284.1,
+    "end": 285.26
+  },
+  {
+    "word": "ca",
+    "start": 285.26,
+    "end": 285.64
+  },
+  {
+    "word": "karma",
+    "start": 285.64,
+    "end": 286.14
+  },
+  {
+    "word": "yāha",
+    "start": 286.14,
+    "end": 287.04
+  },
+  {
+    "word": "sabudhīmān",
+    "start": 287.04,
+    "end": 288.92
+  },
+  {
+    "word": "manuṣyēṣu",
+    "start": 288.92,
+    "end": 290.62
+  },
+  {
+    "word": "sa",
+    "start": 290.62,
+    "end": 291.26
+  },
+  {
+    "word": "yuktaḥ",
+    "start": 291.26,
+    "end": 292.14
+  },
+  {
+    "word": "krṭhna",
+    "start": 292.14,
+    "end": 292.82
+  },
+  {
+    "word": "karma",
+    "start": 292.82,
+    "end": 293.34
+  },
+  {
+    "word": "krṭe",
+    "start": 293.34,
+    "end": 294.26
+  },
+  {
+    "word": "yasyasar",
+    "start": 294.26,
+    "end": 295.56
+  },
+  {
+    "word": "ve",
+    "start": 295.56,
+    "end": 296.08
+  },
+  {
+    "word": "samārambhāha",
+    "start": 296.08,
+    "end": 298.74
+  },
+  {
+    "word": "kāmasankal",
+    "start": 298.74,
+    "end": 300.46
+  },
+  {
+    "word": "pa",
+    "start": 300.46,
+    "end": 300.8
+  },
+  {
+    "word": "varjitāha",
+    "start": 300.8,
+    "end": 302.42
+  },
+  {
+    "word": "njānāgni",
+    "start": 302.42,
+    "end": 304.12
+  },
+  {
+    "word": "daghdha",
+    "start": 304.12,
+    "end": 304.8
+  },
+  {
+    "word": "karmaṇam",
+    "start": 304.8,
+    "end": 306.28
+  },
+  {
+    "word": "tamāhufpandi",
+    "start": 306.28,
+    "end": 308.24
+  },
+  {
+    "word": "tam",
+    "start": 308.24,
+    "end": 308.62
+  },
+  {
+    "word": "buddhāha",
+    "start": 308.62,
+    "end": 310.46
+  },
+  {
+    "word": "tyaktva",
+    "start": 310.46,
+    "end": 311.38
+  },
+  {
+    "word": "karma",
+    "start": 311.38,
+    "end": 312.3
+  },
+  {
+    "word": "phala",
+    "start": 312.3,
+    "end": 312.9
+  },
+  {
+    "word": "sangham",
+    "start": 312.9,
+    "end": 314.32
+  },
+  {
+    "word": "nityatrapto",
+    "start": 314.32,
+    "end": 316.2
+  },
+  {
+    "word": "nirāśraya",
+    "start": 316.2,
+    "end": 317.72
+  },
+  {
+    "word": "ha",
+    "start": 317.72,
+    "end": 318.04
+  },
+  {
+    "word": "karmaṇya",
+    "start": 318.04,
+    "end": 319.48
+  },
+  {
+    "word": "bhipravarthopi",
+    "start": 319.48,
+    "end": 321.48
+  },
+  {
+    "word": "nai",
+    "start": 321.48,
+    "end": 322.3
+  },
+  {
+    "word": "vāking",
+    "start": 322.3,
+    "end": 322.76
+  },
+  {
+    "word": "citta",
+    "start": 322.76,
+    "end": 323.3
+  },
+  {
+    "word": "karoti",
+    "start": 323.3,
+    "end": 324.16
+  },
+  {
+    "word": "sa",
+    "start": 324.16,
+    "end": 324.58
+  },
+  {
+    "word": "ha",
+    "start": 324.58,
+    "end": 325.02
+  },
+  {
+    "word": "nirāśīryata",
+    "start": 325.02,
+    "end": 327.3
+  },
+  {
+    "word": "citta",
+    "start": 327.3,
+    "end": 327.96
+  },
+  {
+    "word": "atma",
+    "start": 327.96,
+    "end": 328.86
+  },
+  {
+    "word": "tyaktva",
+    "start": 328.86,
+    "end": 330.34
+  },
+  {
+    "word": "sarva",
+    "start": 330.34,
+    "end": 330.82
+  },
+  {
+    "word": "parigraha",
+    "start": 330.82,
+    "end": 332.28
+  },
+  {
+    "word": "śārīram",
+    "start": 332.28,
+    "end": 334.24
+  },
+  {
+    "word": "kevalam",
+    "start": 334.24,
+    "end": 335.38
+  },
+  {
+    "word": "karma",
+    "start": 335.38,
+    "end": 336.16
+  },
+  {
+    "word": "kurvanna",
+    "start": 336.16,
+    "end": 337.8
+  },
+  {
+    "word": "apnoti",
+    "start": 337.8,
+    "end": 339.04
+  },
+  {
+    "word": "kilbisham",
+    "start": 339.04,
+    "end": 340.22
+  },
+  {
+    "word": "yadrachchālābha",
+    "start": 340.22,
+    "end": 342.96
+  },
+  {
+    "word": "sāntuṣṭha",
+    "start": 342.96,
+    "end": 344.1
+  },
+  {
+    "word": "ha",
+    "start": 344.1,
+    "end": 344.62
+  },
+  {
+    "word": "dvandvāti",
+    "start": 344.62,
+    "end": 346.12
+  },
+  {
+    "word": "to",
+    "start": 346.12,
+    "end": 346.58
+  },
+  {
+    "word": "vimatsaraḥ",
+    "start": 346.58,
+    "end": 348.08
+  },
+  {
+    "word": "samasiddhā",
+    "start": 348.08,
+    "end": 350.12
+  },
+  {
+    "word": "vasiddhau",
+    "start": 350.12,
+    "end": 351.24
+  },
+  {
+    "word": "ca",
+    "start": 351.24,
+    "end": 351.58
+  },
+  {
+    "word": "krṭva",
+    "start": 352.14,
+    "end": 353.0
+  },
+  {
+    "word": "pina",
+    "start": 353.0,
+    "end": 353.5
+  },
+  {
+    "word": "nibadhyate",
+    "start": 353.5,
+    "end": 354.84
+  },
+  {
+    "word": "gatasangasya",
+    "start": 354.84,
+    "end": 357.04
+  },
+  {
+    "word": "muktasya",
+    "start": 357.04,
+    "end": 358.26
+  },
+  {
+    "word": "njānā",
+    "start": 358.26,
+    "end": 359.68
+  },
+  {
+    "word": "vasthi",
+    "start": 359.68,
+    "end": 360.62
+  },
+  {
+    "word": "tachetasah",
+    "start": 360.62,
+    "end": 361.94
+  },
+  {
+    "word": "yajñāyācara",
+    "start": 361.94,
+    "end": 364.44
+  },
+  {
+    "word": "takhkarma",
+    "start": 364.44,
+    "end": 365.62
+  },
+  {
+    "word": "samagraṁ",
+    "start": 365.62,
+    "end": 367.2
+  },
+  {
+    "word": "pravilīyate",
+    "start": 367.2,
+    "end": 368.58
+  },
+  {
+    "word": "brahmārpanam",
+    "start": 368.58,
+    "end": 371.14
+  },
+  {
+    "word": "brahmāhavi",
+    "start": 371.14,
+    "end": 372.4
+  },
+  {
+    "word": "brahmāgna",
+    "start": 373.4,
+    "end": 374.6
+  },
+  {
+    "word": "brahmāna",
+    "start": 374.6,
+    "end": 375.76
+  },
+  {
+    "word": "hūtam",
+    "start": 375.76,
+    "end": 376.64
+  },
+  {
+    "word": "brahmāyvate",
+    "start": 376.64,
+    "end": 378.54
+  },
+  {
+    "word": "nagantavyam",
+    "start": 378.54,
+    "end": 380.34
+  },
+  {
+    "word": "brahmā",
+    "start": 380.82,
+    "end": 381.52
+  },
+  {
+    "word": "karma",
+    "start": 381.52,
+    "end": 381.84
+  },
+  {
+    "word": "samādhina",
+    "start": 381.84,
+    "end": 383.24
+  },
+  {
+    "word": "daiva",
+    "start": 383.24,
+    "end": 384.64
+  },
+  {
+    "word": "meva",
+    "start": 384.64,
+    "end": 385.58
+  },
+  {
+    "word": "pare",
+    "start": 385.58,
+    "end": 386.08
+  },
+  {
+    "word": "yajñam",
+    "start": 386.08,
+    "end": 387.6
+  },
+  {
+    "word": "yogināf",
+    "start": 387.6,
+    "end": 388.98
+  },
+  {
+    "word": "parjupāsate",
+    "start": 388.98,
+    "end": 390.6
+  },
+  {
+    "word": "brahmāgnava",
+    "start": 390.6,
+    "end": 393.24
+  },
+  {
+    "word": "pare",
+    "start": 393.24,
+    "end": 393.72
+  },
+  {
+    "word": "yajñam",
+    "start": 393.72,
+    "end": 395.02
+  },
+  {
+    "word": "yajñe",
+    "start": 395.62,
+    "end": 396.32
+  },
+  {
+    "word": "naiopajuhvati",
+    "start": 396.32,
+    "end": 398.6
+  },
+  {
+    "word": "śrotrādīṇīndriyāññan",
+    "start": 398.6,
+    "end": 403.04
+  },
+  {
+    "word": "ye",
+    "start": 403.04,
+    "end": 403.52
+  },
+  {
+    "word": "samyamāgnaṣu",
+    "start": 403.52,
+    "end": 405.78
+  },
+  {
+    "word": "juhvati",
+    "start": 405.78,
+    "end": 406.74
+  },
+  {
+    "word": "shabdādīn",
+    "start": 406.74,
+    "end": 408.92
+  },
+  {
+    "word": "vishayānanye",
+    "start": 408.92,
+    "end": 411.02
+  },
+  {
+    "word": "indriyāgnaṣu",
+    "start": 411.02,
+    "end": 412.9
+  },
+  {
+    "word": "juhvati",
+    "start": 412.9,
+    "end": 413.94
+  },
+  {
+    "word": "sarvāṇīndriya",
+    "start": 413.94,
+    "end": 416.62
+  },
+  {
+    "word": "karmaṇi",
+    "start": 416.62,
+    "end": 418.02
+  },
+  {
+    "word": "prāṇakar",
+    "start": 418.02,
+    "end": 419.36
+  },
+  {
+    "word": "māni",
+    "start": 419.36,
+    "end": 420.1
+  },
+  {
+    "word": "ca",
+    "start": 420.1,
+    "end": 420.42
+  },
+  {
+    "word": "pare",
+    "start": 420.42,
+    "end": 421.02
+  },
+  {
+    "word": "atma",
+    "start": 421.02,
+    "end": 422.54
+  },
+  {
+    "word": "samyamayogāgnao",
+    "start": 422.54,
+    "end": 425.22
+  },
+  {
+    "word": "juhvati",
+    "start": 425.22,
+    "end": 426.3
+  },
+  {
+    "word": "jñāna",
+    "start": 426.3,
+    "end": 427.16
+  },
+  {
+    "word": "dīpite",
+    "start": 427.16,
+    "end": 428.28
+  },
+  {
+    "word": "drāvyayajñāstapo",
+    "start": 428.28,
+    "end": 431.8
+  },
+  {
+    "word": "yajñāha",
+    "start": 431.8,
+    "end": 433.26
+  },
+  {
+    "word": "yogayajñāstatha",
+    "start": 434.86,
+    "end": 436.26
+  },
+  {
+    "word": "pare",
+    "start": 436.26,
+    "end": 436.78
+  },
+  {
+    "word": "svādhyāyajñāna",
+    "start": 436.78,
+    "end": 440.06
+  },
+  {
+    "word": "yajñāśca",
+    "start": 440.06,
+    "end": 441.74
+  },
+  {
+    "word": "yatayasam",
+    "start": 442.74,
+    "end": 443.46
+  },
+  {
+    "word": "shita",
+    "start": 443.46,
+    "end": 443.94
+  },
+  {
+    "word": "vratā",
+    "start": 443.94,
+    "end": 444.9
+  },
+  {
+    "word": "apāne",
+    "start": 444.9,
+    "end": 446.92
+  },
+  {
+    "word": "juhvati",
+    "start": 446.92,
+    "end": 448.14
+  },
+  {
+    "word": "prāṇam",
+    "start": 448.14,
+    "end": 449.22
+  },
+  {
+    "word": "prāṇepānam",
+    "start": 449.74,
+    "end": 451.78
+  },
+  {
+    "word": "tathāpare",
+    "start": 451.78,
+    "end": 453.08
+  },
+  {
+    "word": "prāṇā",
+    "start": 453.08,
+    "end": 454.92
+  },
+  {
+    "word": "pāna",
+    "start": 454.92,
+    "end": 455.72
+  },
+  {
+    "word": "gatiruddhva",
+    "start": 455.72,
+    "end": 457.38
+  },
+  {
+    "word": "prāṇā",
+    "start": 457.38,
+    "end": 459.08
+  },
+  {
+    "word": "yāma",
+    "start": 459.08,
+    "end": 459.86
+  },
+  {
+    "word": "parāyānā",
+    "start": 459.86,
+    "end": 461.42
+  },
+  {
+    "word": "apare",
+    "start": 461.42,
+    "end": 463.0
+  },
+  {
+    "word": "niyatā",
+    "start": 463.0,
+    "end": 464.38
+  },
+  {
+    "word": "rāha",
+    "start": 464.38,
+    "end": 465.86
+  },
+  {
+    "word": "prāṇān",
+    "start": 465.86,
+    "end": 467.38
+  },
+  {
+    "word": "prāṇīśu",
+    "start": 467.38,
+    "end": 468.58
+  },
+  {
+    "word": "juhvati",
+    "start": 468.58,
+    "end": 469.5
+  },
+  {
+    "word": "sarvē",
+    "start": 469.5,
+    "end": 471.1
+  },
+  {
+    "word": "pieti",
+    "start": 471.1,
+    "end": 472.2
+  },
+  {
+    "word": "yajñe",
+    "start": 472.2,
+    "end": 473.0
+  },
+  {
+    "word": "vidhā",
+    "start": 473.0,
+    "end": 473.76
+  },
+  {
+    "word": "yajñākṣapita",
+    "start": 473.76,
+    "end": 475.86
+  },
+  {
+    "word": "kalmasahā",
+    "start": 475.86,
+    "end": 477.7
+  },
+  {
+    "word": "yajñāśśta",
+    "start": 477.7,
+    "end": 479.48
+  },
+  {
+    "word": "mṛta",
+    "start": 479.48,
+    "end": 480.24
+  },
+  {
+    "word": "bhujā",
+    "start": 480.24,
+    "end": 480.84
+  },
+  {
+    "word": "yāntibbraṃha",
+    "start": 480.84,
+    "end": 483.26
+  },
+  {
+    "word": "sanātanam",
+    "start": 483.26,
+    "end": 484.72
+  },
+  {
+    "word": "nāyam",
+    "start": 484.72,
+    "end": 485.96
+  },
+  {
+    "word": "lokoṣṭi",
+    "start": 485.96,
+    "end": 487.34
+  },
+  {
+    "word": "yajñāsya",
+    "start": 487.34,
+    "end": 488.84
+  },
+  {
+    "word": "kuto",
+    "start": 488.84,
+    "end": 489.56
+  },
+  {
+    "word": "nyakurusattama",
+    "start": 489.56,
+    "end": 491.88
+  },
+  {
+    "word": "evam",
+    "start": 491.88,
+    "end": 493.66
+  },
+  {
+    "word": "bhau",
+    "start": 493.66,
+    "end": 494.48
+  },
+  {
+    "word": "vidhā",
+    "start": 494.48,
+    "end": 495.18
+  },
+  {
+    "word": "yajñāha",
+    "start": 495.18,
+    "end": 496.58
+  },
+  {
+    "word": "vidhatā",
+    "start": 496.58,
+    "end": 498.12
+  },
+  {
+    "word": "brahmālomukhe",
+    "start": 498.12,
+    "end": 500.52
+  },
+  {
+    "word": "karmajān",
+    "start": 500.52,
+    "end": 502.22
+  },
+  {
+    "word": "viddhītān",
+    "start": 502.22,
+    "end": 503.7
+  },
+  {
+    "word": "sarvān",
+    "start": 503.7,
+    "end": 505.08
+  },
+  {
+    "word": "evam",
+    "start": 505.08,
+    "end": 506.2
+  },
+  {
+    "word": "jñātvāvimokṣya",
+    "start": 506.2,
+    "end": 508.52
+  },
+  {
+    "word": "se",
+    "start": 508.52,
+    "end": 509.06
+  },
+  {
+    "word": "śreyāndravyamayādh",
+    "start": 509.06,
+    "end": 513.34
+  },
+  {
+    "word": "yajñāt",
+    "start": 513.34,
+    "end": 514.0400000000001
+  },
+  {
+    "word": "njāna",
+    "start": 514.74,
+    "end": 515.44
+  },
+  {
+    "word": "yajñāv",
+    "start": 515.44,
+    "end": 516.32
+  },
+  {
+    "word": "parantapa",
+    "start": 516.32,
+    "end": 517.4
+  },
+  {
+    "word": "sarvam",
+    "start": 517.4,
+    "end": 518.86
+  },
+  {
+    "word": "karma",
+    "start": 518.86,
+    "end": 519.64
+  },
+  {
+    "word": "khilampārtha",
+    "start": 519.64,
+    "end": 521.5
+  },
+  {
+    "word": "njāne",
+    "start": 522.04,
+    "end": 522.98
+  },
+  {
+    "word": "parisamāpya",
+    "start": 522.98,
+    "end": 524.86
+  },
+  {
+    "word": "te",
+    "start": 524.86,
+    "end": 525.3
+  },
+  {
+    "word": "tadvidhhe",
+    "start": 525.3,
+    "end": 527.1
+  },
+  {
+    "word": "pranipātena",
+    "start": 527.1,
+    "end": 528.8
+  },
+  {
+    "word": "pare",
+    "start": 528.8,
+    "end": 529.76
+  },
+  {
+    "word": "prashnena",
+    "start": 529.76,
+    "end": 531.12
+  },
+  {
+    "word": "sevaya",
+    "start": 531.12,
+    "end": 532.24
+  },
+  {
+    "word": "upade",
+    "start": 532.24,
+    "end": 533.68
+  },
+  {
+    "word": "kṣyantite",
+    "start": 533.68,
+    "end": 535.04
+  },
+  {
+    "word": "jñānam",
+    "start": 535.04,
+    "end": 536.52
+  },
+  {
+    "word": "njāni",
+    "start": 537.14,
+    "end": 537.84
+  },
+  {
+    "word": "nāstattva",
+    "start": 537.84,
+    "end": 538.9
+  },
+  {
+    "word": "darsinah",
+    "start": 538.9,
+    "end": 539.98
+  },
+  {
+    "word": "yajñātvāna",
+    "start": 539.98,
+    "end": 543.0
+  },
+  {
+    "word": "punar",
+    "start": 543.0,
+    "end": 543.56
+  },
+  {
+    "word": "moham",
+    "start": 543.56,
+    "end": 544.62
+  },
+  {
+    "word": "evam",
+    "start": 544.62,
+    "end": 545.94
+  },
+  {
+    "word": "yāsya",
+    "start": 545.94,
+    "end": 546.88
+  },
+  {
+    "word": "si",
+    "start": 546.88,
+    "end": 547.1
+  },
+  {
+    "word": "pāndava",
+    "start": 547.1,
+    "end": 548.16
+  },
+  {
+    "word": "yena",
+    "start": 548.16,
+    "end": 549.38
+  },
+  {
+    "word": "bhūtānya",
+    "start": 549.38,
+    "end": 550.82
+  },
+  {
+    "word": "se",
+    "start": 550.82,
+    "end": 551.26
+  },
+  {
+    "word": "śrena",
+    "start": 551.26,
+    "end": 552.26
+  },
+  {
+    "word": "drakṣya",
+    "start": 552.26,
+    "end": 553.56
+  },
+  {
+    "word": "siātmanya",
+    "start": 553.56,
+    "end": 555.08
+  },
+  {
+    "word": "thomai",
+    "start": 555.08,
+    "end": 556.16
+  },
+  {
+    "word": "api",
+    "start": 556.16,
+    "end": 557.36
+  },
+  {
+    "word": "chedasi",
+    "start": 557.36,
+    "end": 558.08
+  },
+  {
+    "word": "pāpe",
+    "start": 558.08,
+    "end": 558.82
+  },
+  {
+    "word": "bhya",
+    "start": 558.82,
+    "end": 559.52
+  },
+  {
+    "word": "ha",
+    "start": 559.52,
+    "end": 560.0
+  },
+  {
+    "word": "sarve",
+    "start": 560.3599999999999,
+    "end": 561.06
+  },
+  {
+    "word": "bhya",
+    "start": 561.06,
+    "end": 561.82
+  },
+  {
+    "word": "pāpakrtha",
+    "start": 561.82,
+    "end": 563.22
+  },
+  {
+    "word": "mahā",
+    "start": 563.22,
+    "end": 564.1
+  },
+  {
+    "word": "sarvam",
+    "start": 564.1,
+    "end": 565.24
+  },
+  {
+    "word": "jñāna",
+    "start": 565.24,
+    "end": 565.94
+  },
+  {
+    "word": "plavenaiva",
+    "start": 565.94,
+    "end": 567.0
+  },
+  {
+    "word": "vrajīnam",
+    "start": 567.68,
+    "end": 568.76
+  },
+  {
+    "word": "santarśyasi",
+    "start": 568.76,
+    "end": 570.58
+  },
+  {
+    "word": "yathai",
+    "start": 570.58,
+    "end": 571.98
+  },
+  {
+    "word": "dhāṁsi",
+    "start": 571.98,
+    "end": 572.94
+  },
+  {
+    "word": "samidhhognihe",
+    "start": 572.94,
+    "end": 575.12
+  },
+  {
+    "word": "bhasmasātkurute",
+    "start": 575.12,
+    "end": 577.74
+  },
+  {
+    "word": "juna",
+    "start": 577.74,
+    "end": 578.44
+  },
+  {
+    "word": "jñānāgni",
+    "start": 578.44,
+    "end": 580.46
+  },
+  {
+    "word": "sarva",
+    "start": 580.46,
+    "end": 581.28
+  },
+  {
+    "word": "karmaṇi",
+    "start": 581.28,
+    "end": 582.6
+  },
+  {
+    "word": "bhasmasātkurute",
+    "start": 582.6,
+    "end": 585.28
+  },
+  {
+    "word": "tathā",
+    "start": 585.28,
+    "end": 586.4
+  },
+  {
+    "word": "nahi",
+    "start": 586.4,
+    "end": 587.16
+  },
+  {
+    "word": "jñānena",
+    "start": 587.16,
+    "end": 588.46
+  },
+  {
+    "word": "sadrśam",
+    "start": 588.46,
+    "end": 589.26
+  },
+  {
+    "word": "pavitramiha",
+    "start": 589.26,
+    "end": 590.96
+  },
+  {
+    "word": "vidyate",
+    "start": 590.96,
+    "end": 591.72
+  },
+  {
+    "word": "tatsvayam",
+    "start": 591.72,
+    "end": 593.48
+  },
+  {
+    "word": "yoga",
+    "start": 593.48,
+    "end": 594.0
+  },
+  {
+    "word": "samsiddhaha",
+    "start": 594.0,
+    "end": 595.72
+  },
+  {
+    "word": "kālenātmanivindati",
+    "start": 598.5200000000001,
+    "end": 599.9200000000001
+  },
+  {
+    "word": "śraddhāvān",
+    "start": 599.9200000000001,
+    "end": 601.32
+  },
+  {
+    "word": "labhate",
+    "start": 601.32,
+    "end": 602.06
+  },
+  {
+    "word": "jñānam",
+    "start": 602.06,
+    "end": 603.3
+  },
+  {
+    "word": "tatparasam",
+    "start": 603.3,
+    "end": 605.12
+  },
+  {
+    "word": "yate",
+    "start": 605.12,
+    "end": 605.6
+  },
+  {
+    "word": "ndriyaha",
+    "start": 605.6,
+    "end": 606.72
+  },
+  {
+    "word": "jñānam",
+    "start": 606.72,
+    "end": 608.1
+  },
+  {
+    "word": "labdhva",
+    "start": 608.1,
+    "end": 609.2
+  },
+  {
+    "word": "parāṁ",
+    "start": 609.2,
+    "end": 610.16
+  },
+  {
+    "word": "shāntim",
+    "start": 610.16,
+    "end": 611.14
+  },
+  {
+    "word": "achirenādhi",
+    "start": 611.14,
+    "end": 613.16
+  },
+  {
+    "word": "gacchati",
+    "start": 613.16,
+    "end": 614.0
+  },
+  {
+    "word": "ajnashchāśraddhānascha",
+    "start": 614.0,
+    "end": 618.0
+  },
+  {
+    "word": "samśayātmāvinashyati",
+    "start": 620.1,
+    "end": 621.5
+  },
+  {
+    "word": "nāyam",
+    "start": 621.5,
+    "end": 622.9
+  },
+  {
+    "word": "loko",
+    "start": 622.9,
+    "end": 623.72
+  },
+  {
+    "word": "stina",
+    "start": 623.72,
+    "end": 624.42
+  },
+  {
+    "word": "paraha",
+    "start": 624.42,
+    "end": 625.28
+  },
+  {
+    "word": "nasukham",
+    "start": 625.28,
+    "end": 626.54
+  },
+  {
+    "word": "samśayātmanaha",
+    "start": 626.54,
+    "end": 628.72
+  },
+  {
+    "word": "yoga",
+    "start": 628.72,
+    "end": 629.56
+  },
+  {
+    "word": "sannyastakar",
+    "start": 629.56,
+    "end": 631.16
+  },
+  {
+    "word": "mānam",
+    "start": 631.16,
+    "end": 632.0
+  },
+  {
+    "word": "jñāna",
+    "start": 632.0,
+    "end": 633.2
+  },
+  {
+    "word": "san",
+    "start": 633.2,
+    "end": 633.52
+  },
+  {
+    "word": "chnā",
+    "start": 633.52,
+    "end": 634.34
+  },
+  {
+    "word": "samśayam",
+    "start": 634.34,
+    "end": 635.56
+  },
+  {
+    "word": "ātmavantam",
+    "start": 635.56,
+    "end": 637.34
+  },
+  {
+    "word": "na",
+    "start": 637.34,
+    "end": 637.68
+  },
+  {
+    "word": "karmaṇi",
+    "start": 637.68,
+    "end": 638.98
+  },
+  {
+    "word": "nibadhananti",
+    "start": 638.98,
+    "end": 640.6
+  },
+  {
+    "word": "dhananjaya",
+    "start": 640.6,
+    "end": 641.84
+  },
+  {
+    "word": "tasmādhjāna",
+    "start": 641.84,
+    "end": 644.32
+  },
+  {
+    "word": "sambhūtam",
+    "start": 644.32,
+    "end": 645.54
+  },
+  {
+    "word": "ratsthamjāna",
+    "start": 645.54,
+    "end": 647.68
+  },
+  {
+    "word": "asinātmanaha",
+    "start": 647.68,
+    "end": 649.62
+  },
+  {
+    "word": "chitvayinam",
+    "start": 649.62,
+    "end": 651.26
+  },
+  {
+    "word": "samśayam",
+    "start": 651.26,
+    "end": 652.42
+  },
+  {
+    "word": "yoga",
+    "start": 652.42,
+    "end": 653.0
+  },
+  {
+    "word": "ātishtho",
+    "start": 653.98,
+    "end": 655.28
+  },
+  {
+    "word": "tishtha",
+    "start": 655.28,
+    "end": 656.24
+  },
+  {
+    "word": "bhārata",
+    "start": 656.24,
+    "end": 657.22
+  },
+  {
+    "word": "oṁ",
+    "start": 657.22,
+    "end": 659.1
+  },
+  {
+    "word": "tatsaditi",
+    "start": 659.1,
+    "end": 660.42
+  },
+  {
+    "word": "śrīmadbhāgavadgītāsu",
+    "start": 662.94,
+    "end": 664.34
+  },
+  {
+    "word": "upaneśratsu",
+    "start": 664.34,
+    "end": 665.74
+  },
+  {
+    "word": "brahmavidhyāyā",
+    "start": 665.74,
+    "end": 668.06
+  },
+  {
+    "word": "yoga",
+    "start": 668.06,
+    "end": 669.1
+  },
+  {
+    "word": "śāstra",
+    "start": 669.1,
+    "end": 670.22
+  },
+  {
+    "word": "śikrṣṇārjuna",
+    "start": 670.22,
+    "end": 672.72
+  },
+  {
+    "word": "samvāde",
+    "start": 672.72,
+    "end": 674.06
+  },
+  {
+    "word": "njāna",
+    "start": 674.06,
+    "end": 675.22
+  },
+  {
+    "word": "yoga",
+    "start": 675.22,
+    "end": 675.76
+  },
+  {
+    "word": "nāmā",
+    "start": 675.76,
+    "end": 677.08
+  },
+  {
+    "word": "cheturtho",
+    "start": 677.08,
+    "end": 678.64
+  },
+  {
+    "word": "dhyāya",
+    "start": 678.64,
+    "end": 679.8
+  }
+]

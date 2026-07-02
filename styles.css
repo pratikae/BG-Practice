@@ -145,6 +145,40 @@ select {
   flex-wrap: wrap;
 }
 
+.pill-toggle {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 999px;
+  background: rgba(23, 50, 77, 0.08);
+  border: 1px solid var(--border);
+}
+
+.pill-option {
+  border-radius: 999px;
+  border: none;
+  padding: 10px 18px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  background: transparent;
+  color: var(--text);
+  box-shadow: none;
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.pill-option:hover {
+  transform: none;
+  box-shadow: none;
+  background: rgba(23, 50, 77, 0.06);
+}
+
+.pill-option.active {
+  background: linear-gradient(135deg, var(--accent), #ff9a3c);
+  color: white;
+}
+
 .speed-control {
   display: flex;
   align-items: center;

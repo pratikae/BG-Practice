@@ -28,12 +28,12 @@
           </div>
 
           <div class="field">
-            <label for="modeSelect">Playback mode</label>
-            <select id="modeSelect">
-              <option value="odd">Odd verses only</option>
-              <option value="even">Even verses only</option>
-              <option value="all">All verses</option>
-            </select>
+            <label>Playback mode</label>
+            <div class="pill-toggle" id="modeToggle" role="group" aria-label="Playback mode">
+              <button type="button" class="pill-option" data-mode="odd">Odd</button>
+              <button type="button" class="pill-option" data-mode="even">Even</button>
+              <button type="button" class="pill-option" data-mode="all">All</button>
+            </div>
           </div>
 
           <div class="field">

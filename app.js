@@ -11,10 +11,11 @@ const state = {
   currentAudio: null,
   playing: false,
   speed: 1,
+  mode: "odd",
 };
 
 const chapterSelect = document.getElementById("chapterSelect");
-const modeSelect = document.getElementById("modeSelect");
+const modeToggle = document.getElementById("modeToggle");
 const speedSlider = document.getElementById("speedSlider");
 const speedValue = document.getElementById("speedValue");
 const speedDownBtn = document.getElementById("speedDownBtn");
@@ -58,9 +59,17 @@ function updateQueueLabel() {
     return;
   }
 
-  const mode = modeSelect.value;
+  const mode = state.mode;
   const selectedCount = buildQueue().length;
   queueLabel.textContent = `${selectedCount} ${mode === "all" ? "verses" : `${mode} verses`} queued`;
+}
+
+function setMode(mode) {
+  state.mode = mode;
+  modeToggle.querySelectorAll(".pill-option").forEach((btn) => {
+    btn.classList.toggle("active", btn.dataset.mode === mode);
+  });
+  updateQueueLabel();
 }
 
 function formatSpeed(value) {
@@ -133,7 +142,7 @@ function buildQueue() {
     (v) => v.type !== "intro" && v.type !== "colophon" && v.number !== 0
   );
 
-  const mode = modeSelect.value;
+  const mode = state.mode;
   let verses;
   if (mode === "odd") {
     verses = regular.filter((v) => v.number % 2 === 1);
@@ -150,6 +159,7 @@ function buildQueue() {
 }
 
 function getGapDurationForIndex(queue, index) {
+  if (state.mode === "all") return 0;
   if (index >= queue.length - 1) return 0;
 
   const currentVerse = queue[index];
@@ -311,22 +321,28 @@ function loadVerseDuration(verse) {
 async function init() {
   const response = await fetch("chapters/chapters.json");
   const data = await response.json();
-  state.chapters = data.chapters;
+  state.chapters = data.chapters.slice().sort((a, b) => {
+    const numA = Number(a.id.replace(/\D+/g, ""));
+    const numB = Number(b.id.replace(/\D+/g, ""));
+    return numA - numB;
+  });
 
   chapterSelect.innerHTML = state.chapters
     .map((chapter) => `<option value="${chapter.id}">${chapter.title}</option>`)
     .join("");
 
   chapterSelect.value = state.chapters[0]?.id || "";
-  modeSelect.value = "odd";
+  setMode("odd");
   updateSpeedDisplay();
 
   chapterSelect.addEventListener("change", (event) => {
     loadChapter(event.target.value);
   });
 
-  modeSelect.addEventListener("change", () => {
-    updateQueueLabel();
+  modeToggle.addEventListener("click", (event) => {
+    const btn = event.target.closest(".pill-option");
+    if (!btn) return;
+    setMode(btn.dataset.mode);
   });
 
   speedSlider.addEventListener("input", (event) => {

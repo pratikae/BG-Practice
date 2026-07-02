@@ -2031,6 +2031,138 @@
           "file": "Chapter 13/Ch 13 Colophon.mp3"
         }
       ]
+    },
+    {
+      "id": "chapter-5",
+      "title": "Chapter 5",
+      "verses": [
+        {
+          "number": 0,
+          "type": "intro",
+          "file": "Chapter 5/Ch 5 Shloka 0.mp3"
+        },
+        {
+          "number": 1,
+          "file": "Chapter 5/Ch 5 Shloka 1.mp3"
+        },
+        {
+          "number": 2,
+          "file": "Chapter 5/Ch 5 Shloka 2.mp3"
+        },
+        {
+          "number": 3,
+          "file": "Chapter 5/Ch 5 Shloka 3.mp3"
+        },
+        {
+          "number": 4,
+          "file": "Chapter 5/Ch 5 Shloka 4.mp3"
+        },
+        {
+          "number": 5,
+          "file": "Chapter 5/Ch 5 Shloka 5.mp3"
+        },
+        {
+          "number": 6,
+          "file": "Chapter 5/Ch 5 Shloka 6.mp3"
+        },
+        {
+          "number": 7,
+          "file": "Chapter 5/Ch 5 Shloka 7.mp3"
+        },
+        {
+          "number": 8,
+          "file": "Chapter 5/Ch 5 Shloka 8.mp3"
+        },
+        {
+          "number": 9,
+          "file": "Chapter 5/Ch 5 Shloka 9.mp3"
+        },
+        {
+          "number": 10,
+          "file": "Chapter 5/Ch 5 Shloka 10.mp3"
+        },
+        {
+          "number": 11,
+          "file": "Chapter 5/Ch 5 Shloka 11.mp3"
+        },
+        {
+          "number": 12,
+          "file": "Chapter 5/Ch 5 Shloka 12.mp3"
+        },
+        {
+          "number": 13,
+          "file": "Chapter 5/Ch 5 Shloka 13.mp3"
+        },
+        {
+          "number": 14,
+          "file": "Chapter 5/Ch 5 Shloka 14.mp3"
+        },
+        {
+          "number": 15,
+          "file": "Chapter 5/Ch 5 Shloka 15.mp3"
+        },
+        {
+          "number": 16,
+          "file": "Chapter 5/Ch 5 Shloka 16.mp3"
+        },
+        {
+          "number": 17,
+          "file": "Chapter 5/Ch 5 Shloka 17.mp3"
+        },
+        {
+          "number": 18,
+          "file": "Chapter 5/Ch 5 Shloka 18.mp3"
+        },
+        {
+          "number": 19,
+          "file": "Chapter 5/Ch 5 Shloka 19.mp3"
+        },
+        {
+          "number": 20,
+          "file": "Chapter 5/Ch 5 Shloka 20.mp3"
+        },
+        {
+          "number": 21,
+          "file": "Chapter 5/Ch 5 Shloka 21.mp3"
+        },
+        {
+          "number": 22,
+          "file": "Chapter 5/Ch 5 Shloka 22.mp3"
+        },
+        {
+          "number": 23,
+          "file": "Chapter 5/Ch 5 Shloka 23.mp3"
+        },
+        {
+          "number": 24,
+          "file": "Chapter 5/Ch 5 Shloka 24.mp3"
+        },
+        {
+          "number": 25,
+          "file": "Chapter 5/Ch 5 Shloka 25.mp3"
+        },
+        {
+          "number": 26,
+          "file": "Chapter 5/Ch 5 Shloka 26.mp3"
+        },
+        {
+          "number": 27,
+          "file": "Chapter 5/Ch 5 Shloka 27.mp3"
+        },
+        {
+          "number": 28,
+          "file": "Chapter 5/Ch 5 Shloka 28.mp3"
+        },
+        {
+          "number": 29,
+          "file": "Chapter 5/Ch 5 Shloka 29.mp3"
+        },
+        {
+          "number": 30,
+          "type": "colophon",
+          "file": "Chapter 5/Ch 5 Colophon.mp3"
+        }
+      ]
     }
   ]
 }

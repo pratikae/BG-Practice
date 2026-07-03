@@ -10,6 +10,8 @@ const state = {
   gapTimer: null,
   currentAudio: null,
   playing: false,
+  paused: false,
+  resumeInfo: null,
   speed: 1,
   mode: "odd",
 };
@@ -196,6 +198,8 @@ function stopPlayback(resetUi = true) {
   }
 
   state.playing = false;
+  state.paused = false;
+  state.resumeInfo = null;
   state.queue = [];
   state.currentIndex = 0;
 
@@ -230,6 +234,8 @@ function jumpToVerse(verseNumber) {
   state.queue = queue;
   state.currentIndex = targetIndex;
   state.playing = true;
+  state.paused = false;
+  state.resumeInfo = null;
   const jumpedVerse = queue[targetIndex];
   const jumpLabel = jumpedVerse.type === "colophon" ? "closing prayer" : verseNumber === 0 ? "intro" : `verse ${verseNumber}`;
   setStatus(`Jumped to ${jumpLabel}.`);
@@ -259,27 +265,89 @@ function playNextVerse() {
     updateCurrentVerse(verse.number);
     const verseDuration = state.verseDurations.get(verse.file) || sharedAudio.duration || 0;
     const totalDelayMs = ((verseDuration + gapDuration) / state.speed) * 1000;
+    const gapStartMs = gapDuration > 0 ? (verseDuration / state.speed) * 1000 : null;
     const verseLabel = verse.type === "colophon" ? "closing prayer" : verse.number === 0 ? "intro" : `verse ${verse.number}`;
     setStatus(`Playing ${verseLabel} at ${formatSpeed(state.speed)} with a ${(gapDuration / state.speed).toFixed(1)}s pause after it.`);
 
-    if (gapDuration > 0) {
-      const gapStartMs = (verseDuration / state.speed) * 1000;
-      const skippedNum = verse.number + 1;
-      state.gapTimer = window.setTimeout(() => {
-        state.gapTimer = null;
-        currentVerseLabel.textContent = `Chant verse ${skippedNum}`;
-        setStatus(`Chant verse ${skippedNum} (${(gapDuration / state.speed).toFixed(1)}s)`);
-      }, gapStartMs);
-    }
+    state.paused = false;
+    state.resumeInfo = {
+      gapDuration,
+      totalDelayMs,
+      gapStartMs,
+      elapsedMs: 0,
+      verseStartedAt: Date.now(),
+      skippedNum: verse.number + 1,
+    };
 
-    state.playbackTimer = window.setTimeout(() => {
-      state.currentIndex += 1;
-      playNextVerse();
-    }, totalDelayMs);
+    scheduleVerseTimers(totalDelayMs, gapStartMs);
   }).catch(() => {
     setStatus("Playback was blocked by the browser. Please tap play again.");
     stopPlayback(false);
   });
+}
+
+function scheduleVerseTimers(remainingTotalMs, remainingGapStartMs) {
+  if (remainingGapStartMs != null && remainingGapStartMs > 0) {
+    state.gapTimer = window.setTimeout(() => {
+      state.gapTimer = null;
+      const info = state.resumeInfo;
+      if (!info) return;
+      currentVerseLabel.textContent = `Chant verse ${info.skippedNum}`;
+      setStatus(`Chant verse ${info.skippedNum} (${(info.gapDuration / state.speed).toFixed(1)}s)`);
+    }, remainingGapStartMs);
+  }
+
+  state.playbackTimer = window.setTimeout(() => {
+    state.playbackTimer = null;
+    state.resumeInfo = null;
+    state.currentIndex += 1;
+    playNextVerse();
+  }, remainingTotalMs);
+}
+
+function pausePlayback() {
+  if (!state.playing || !state.resumeInfo) return;
+
+  const info = state.resumeInfo;
+  info.elapsedMs += Date.now() - info.verseStartedAt;
+
+  if (state.gapTimer) {
+    window.clearTimeout(state.gapTimer);
+    state.gapTimer = null;
+  }
+
+  if (state.playbackTimer) {
+    window.clearTimeout(state.playbackTimer);
+    state.playbackTimer = null;
+  }
+
+  if (state.currentAudio) {
+    state.currentAudio.pause();
+  }
+
+  state.playing = false;
+  state.paused = true;
+  setStatus("Playback paused.");
+}
+
+function resumePlayback() {
+  const info = state.resumeInfo;
+  if (!info) return;
+
+  state.playing = true;
+  state.paused = false;
+  info.verseStartedAt = Date.now();
+
+  const remainingTotalMs = Math.max(0, info.totalDelayMs - info.elapsedMs);
+  const remainingGapStartMs = info.gapStartMs != null ? Math.max(0, info.gapStartMs - info.elapsedMs) : null;
+
+  if (state.currentAudio) {
+    state.currentAudio.playbackRate = state.speed;
+    state.currentAudio.play().catch(() => {});
+  }
+
+  setStatus("Playback resumed.");
+  scheduleVerseTimers(remainingTotalMs, remainingGapStartMs);
 }
 
 async function loadChapter(chapterId) {
@@ -358,6 +426,11 @@ async function init() {
   });
 
   playBtn.addEventListener("click", () => {
+    if (state.paused && state.resumeInfo) {
+      resumePlayback();
+      return;
+    }
+
     stopPlayback(false);
     state.queue = buildQueue();
     if (!state.queue.length) {
@@ -371,23 +444,7 @@ async function init() {
   });
 
   pauseBtn.addEventListener("click", () => {
-    if (!state.playing) return;
-    state.playing = false;
-    if (state.currentAudio) {
-      state.currentAudio.pause();
-    }
-
-    if (state.gapTimer) {
-      window.clearTimeout(state.gapTimer);
-      state.gapTimer = null;
-    }
-
-    if (state.playbackTimer) {
-      window.clearTimeout(state.playbackTimer);
-      state.playbackTimer = null;
-    }
-
-    setStatus("Playback paused.");
+    pausePlayback();
   });
 
   stopBtn.addEventListener("click", () => {

@@ -1,9 +1,15 @@
 const sharedAudio = new Audio();
-// Pitch-preserving time-stretch can truncate the tail of short clips at
-// non-1x rates; plain resampling plays the full clip (just higher-pitched).
-sharedAudio.preservesPitch = false;
-sharedAudio.mozPreservesPitch = false;
-sharedAudio.webkitPreservesPitch = false;
+// Keep pitch-preserving time-stretch on for natural-sounding speed changes.
+// Every audio file has PAD_SECONDS of trailing silence appended (see the
+// audio-padding batch step) as a safety margin, because the time-stretch
+// algorithm can truncate the last fraction of a second of short clips.
+// Playback always advances based on (measured duration - PAD_SECONDS), so
+// that margin is never actually waited through.
+sharedAudio.preservesPitch = true;
+sharedAudio.mozPreservesPitch = true;
+sharedAudio.webkitPreservesPitch = true;
+
+const PAD_SECONDS = 0.75;
 
 const state = {
   chapters: [],
@@ -98,6 +104,11 @@ function setSpeed(value) {
   setStatus(`Playback speed set to ${formatSpeed(state.speed)}.`);
 }
 
+function getRealDuration(file) {
+  const measured = state.verseDurations.get(file) || 0;
+  return Math.max(0, measured - PAD_SECONDS);
+}
+
 function escapeHtml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -115,11 +126,12 @@ function renderVerseList() {
 
   playlist.innerHTML = state.activeChapter.verses
     .map((verse) => {
-      const duration = state.verseDurations.get(verse.file);
+      const loaded = state.verseDurations.has(verse.file);
+      const duration = loaded ? getRealDuration(verse.file) : null;
       return `
         <article class="verse-card" data-verse-number="${verse.number}" role="button" tabindex="0">
           <strong>${escapeHtml(verse.number)}</strong>
-          <span>${duration ? `${duration.toFixed(1)}s` : "Loading..."}</span>
+          <span>${duration != null ? `${duration.toFixed(1)}s` : "Loading..."}</span>
         </article>
       `;
     })
@@ -181,11 +193,11 @@ function getGapDurationForIndex(queue, index) {
   );
   if (!skippedVerse) return 0;
 
-  return state.verseDurations.get(skippedVerse.file) || 0;
+  return getRealDuration(skippedVerse.file);
 }
 
 function detachEndedListener() {
-  sharedAudio.removeEventListener("ended", handleVerseEnded);
+  sharedAudio.removeEventListener("ended", handleAudioEndedFallback);
 }
 
 function stopPlayback(resetUi = true) {
@@ -262,6 +274,7 @@ function playNextVerse() {
 
   const verse = state.queue[state.currentIndex];
   const gapDuration = getGapDurationForIndex(state.queue, state.currentIndex);
+  const realDuration = getRealDuration(verse.file);
 
   detachEndedListener();
   sharedAudio.pause();
@@ -269,7 +282,7 @@ function playNextVerse() {
   sharedAudio.currentTime = 0;
   sharedAudio.playbackRate = state.speed;
   state.currentAudio = sharedAudio;
-  sharedAudio.addEventListener("ended", handleVerseEnded, { once: true });
+  sharedAudio.addEventListener("ended", handleAudioEndedFallback, { once: true });
 
   sharedAudio.play().then(() => {
     updateCurrentVerse(verse.number);
@@ -279,11 +292,14 @@ function playNextVerse() {
     state.paused = false;
     state.resumeInfo = {
       gapDuration,
-      phase: "verse",
-      gapContentElapsed: 0,
-      gapStartedAt: null,
       skippedNum: verse.number + 1,
+      phase: "verse",
+      segmentContentSeconds: realDuration,
+      segmentContentElapsed: 0,
+      segmentStartedAt: Date.now(),
     };
+
+    scheduleSegmentTimer();
   }).catch(() => {
     detachEndedListener();
     setStatus("Playback was blocked by the browser. Please tap play again.");
@@ -291,25 +307,53 @@ function playNextVerse() {
   });
 }
 
-function handleVerseEnded() {
+function scheduleSegmentTimer() {
   const info = state.resumeInfo;
-  if (!info || !state.playing || info.phase !== "verse") return;
+  if (!info) return;
 
-  if (info.gapDuration > 0) {
-    info.phase = "gap";
-    info.gapContentElapsed = 0;
-    info.gapStartedAt = Date.now();
-    currentVerseLabel.textContent = `Chant verse ${info.skippedNum}`;
-    setStatus(`Chant verse ${info.skippedNum} (${(info.gapDuration / state.speed).toFixed(1)}s)`);
-    const gapMs = (info.gapDuration / state.speed) * 1000;
-    state.playbackTimer = window.setTimeout(advanceQueue, gapMs);
-  } else {
-    advanceQueue();
+  const remaining = Math.max(0, info.segmentContentSeconds - info.segmentContentElapsed);
+  const ms = (remaining / state.speed) * 1000;
+  state.playbackTimer = window.setTimeout(onSegmentComplete, ms);
+}
+
+function onSegmentComplete() {
+  state.playbackTimer = null;
+  const info = state.resumeInfo;
+  if (!info) return;
+
+  if (info.phase === "verse") {
+    detachEndedListener();
+
+    if (info.gapDuration > 0) {
+      info.phase = "gap";
+      info.segmentContentSeconds = info.gapDuration;
+      info.segmentContentElapsed = 0;
+      info.segmentStartedAt = Date.now();
+      currentVerseLabel.textContent = `Chant verse ${info.skippedNum}`;
+      setStatus(`Chant verse ${info.skippedNum} (${(info.gapDuration / state.speed).toFixed(1)}s)`);
+      scheduleSegmentTimer();
+      return;
+    }
   }
+
+  advanceQueue();
+}
+
+function handleAudioEndedFallback() {
+  // Safety net: if the real audio genuinely ends before our predicted
+  // cutoff fires (e.g. a throttled background-tab timer), don't wait
+  // any longer than the audio itself.
+  const info = state.resumeInfo;
+  if (!info || info.phase !== "verse") return;
+
+  if (state.playbackTimer) {
+    window.clearTimeout(state.playbackTimer);
+    state.playbackTimer = null;
+  }
+  onSegmentComplete();
 }
 
 function advanceQueue() {
-  state.playbackTimer = null;
   state.resumeInfo = null;
   state.currentIndex += 1;
   playNextVerse();
@@ -319,14 +363,12 @@ function pausePlayback() {
   if (!state.playing || !state.resumeInfo) return;
 
   const info = state.resumeInfo;
+  const elapsedWallMs = Date.now() - info.segmentStartedAt;
+  info.segmentContentElapsed += (elapsedWallMs / 1000) * state.speed;
 
-  if (info.phase === "gap") {
-    const elapsedWallMs = Date.now() - info.gapStartedAt;
-    info.gapContentElapsed += (elapsedWallMs / 1000) * state.speed;
-    if (state.playbackTimer) {
-      window.clearTimeout(state.playbackTimer);
-      state.playbackTimer = null;
-    }
+  if (state.playbackTimer) {
+    window.clearTimeout(state.playbackTimer);
+    state.playbackTimer = null;
   }
 
   if (state.currentAudio) {
@@ -344,19 +386,14 @@ function resumePlayback() {
 
   state.playing = true;
   state.paused = false;
+  info.segmentStartedAt = Date.now();
 
-  if (info.phase === "verse") {
-    if (state.currentAudio) {
-      state.currentAudio.playbackRate = state.speed;
-      state.currentAudio.play().catch(() => {});
-    }
-  } else {
-    const remainingContent = Math.max(0, info.gapDuration - info.gapContentElapsed);
-    const remainingMs = (remainingContent / state.speed) * 1000;
-    info.gapStartedAt = Date.now();
-    state.playbackTimer = window.setTimeout(advanceQueue, remainingMs);
+  if (info.phase === "verse" && state.currentAudio) {
+    state.currentAudio.playbackRate = state.speed;
+    state.currentAudio.play().catch(() => {});
   }
 
+  scheduleSegmentTimer();
   setStatus("Playback resumed.");
 }
 
